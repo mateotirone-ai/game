@@ -19,9 +19,13 @@ Record durable choices here as short markdown files:
 ## Alternatives considered
 ```
 
-Open questions to resolve soon:
+## Active decisions
+
+- [20260810_first-playable.md](20260810_first-playable.md) — First Playable scope (**Proposed** until creative accepts)
+
+## Open questions to resolve soon
 
 - Exact immortal defeat / death recovery rules
 - Currency minting model
 - Tech research: personal vs settlement pool vs hybrid
-- First playable settlement tier thresholds
+- First Playable creative nits listed inside the First Playable Decision
