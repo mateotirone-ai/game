@@ -1,0 +1,174 @@
+# =============================================================================
+# Unreal Engine — generated & local (do not commit)
+# Based on github/gitignore UnrealEngine template, extended for this project.
+# =============================================================================
+
+# Visual Studio / IDE
+.vs/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.code-workspace
+.idea/
+
+# Compiled object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Compiled libraries / binaries
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Generated project files
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vsconfig
+Makefile
+CMakeFiles/
+CMakeCache.txt
+
+# Unreal build products
+Binaries/
+Plugins/**/Binaries/
+Intermediate/
+Plugins/**/Intermediate/
+DerivedDataCache/
+Saved/
+LocalBuilds/
+Build/*
+!Build/
+!Build/**/
+!Build/**/.gitkeep
+!Build/**/README.md
+!Build/**/PakBlacklist*.txt
+!Build/**/*.ico
+
+# Built map data
+*_BuiltData.uasset
+
+# File watcher / hot reload
+*.hot
+*.hotreload
+*.rc1
+
+# Crash / dump
+*.dmp
+*.stackdump
+
+# =============================================================================
+# Secrets & credentials (never commit)
+# =============================================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+Credentials/
+**/Secret*.ini
+**/DefaultEngine.ini.local
+**/User*.ini
+Config/DefaultEngine.ini.local
+Config/*Secret*
+*.token
+*.credentials
+
+# =============================================================================
+# Console SDKs & proprietary platform material (never commit)
+# Xbox / PlayStation / Nintendo SDKs, NDAs, platform cert material
+# =============================================================================
+SDKs/
+PlatformSDKs/
+**/Xbox*/
+**/XSX*/
+**/Scarlett*/
+**/PlayStation*/
+**/PS5*/
+**/Prospero*/
+**/GDK/
+**/Durango/
+**/Orbis/
+**/ConsoleSDK*/
+**/PlatformCert*/
+**/*_SDK*/
+*.gdk
+*.prospero
+NDA/
+Confidential/
+
+# Platform-specific Intermediate that may appear outside standard paths
+**/Platforms/**/Binaries/
+**/Platforms/**/Intermediate/
+
+# =============================================================================
+# OS junk
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# Packaging / staging / automation artifacts
+# =============================================================================
+Dist/
+Distro/
+Releases/
+Packaged/
+StagedBuilds/
+AutomationToolLog*.txt
+*.log
+!Documentation/**/*.md
+
+# Python / tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node tooling (if used under Tools/)
+node_modules/
+npm-debug.log*
+
+# =============================================================================
+# Raw / local-only working files
+# =============================================================================
+RawAssets/**/~$*
+RawAssets/**/*.tmp
+RawAssets/**/*.blend1
+RawAssets/**/*.blend2
+*.bak
+*.orig
+*~

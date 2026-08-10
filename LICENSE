@@ -1,0 +1,14 @@
+Copyright (c) 2026 GameName Contributors. All Rights Reserved.
+
+This software and associated documentation files (the "Software"), including
+game design materials under Design/, are proprietary and confidential.
+
+Permission to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software is not granted except by prior written agreement
+with the copyright holders.
+
+Console platform SDKs, middleware, and third-party assets remain subject to
+their respective licenses and NDAs and must never be committed to this
+repository.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
