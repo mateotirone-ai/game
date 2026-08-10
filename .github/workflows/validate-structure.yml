@@ -16,6 +16,7 @@ jobs:
           set -euo pipefail
           required=(
             "Aevum.uproject"
+            "AGENTS.md"
             "Design/Vision.md"
             "Design/Pillars.md"
             "Source/Aevum/Aevum.Build.cs"

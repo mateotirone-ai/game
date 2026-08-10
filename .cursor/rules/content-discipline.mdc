@@ -1,0 +1,14 @@
+---
+description: Content discipline — naming, no fake binaries, sandboxes
+globs: Content/**
+alwaysApply: false
+---
+
+# Content discipline
+
+- Follow prefixes in `Content/Aevum/README.md` (`BP_`, `WBP_`, `L_`, `DA_`, `IMC_`, etc.).
+- Do **not** invent or check in placeholder `.uasset` / `.umap` binaries.
+- Experimental work → `Content/Aevum/Developer/`.
+- Assume Git LFS + lockable `.uasset`/`.umap` for real editor-authored assets.
+- Keep multiplayer-safe: server validates grants; UI may predict.
+- Maps should stay World Partition / OFPA-friendly when authored.
