@@ -1,0 +1,25 @@
+# Government & Diplomacy
+
+## Intent
+
+Settlements adopt **institutions**: offices, laws, taxes, and enfranchisement. Diplomacy connects settlements through treaties, reputation, and enforceable agreements.
+
+## Government
+
+- **Charters** — Define who may vote, hold office, own civic plots.
+- **Offices** — Mayor, treasurer, marshal, diplomat (names data-driven).
+- **Laws** — Tax rates, build codes, militia drafts, market rules.
+- **Democracy options** — Proposals → debate window → vote → enactment with veto/override variants.
+
+Not every settlement must be democratic; forms are unlockable / choosable tech-adjacent options with tradeoffs (speed vs legitimacy vs corruption risk).
+
+## Diplomacy
+
+- Reputation between characters and settlements.
+- Treaties: non-aggression, transit rights, mutual defense, trade preference.
+- Sanctions and embargoes as first-class economic instruments.
+- Breach consequences: casus belli flags, trust collapse, NPC/AI reactions.
+
+## Multiplayer integrity
+
+Votes and law changes are server-authoritative with auditable logs. No silent client-side charter edits.

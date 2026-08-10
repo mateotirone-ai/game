@@ -1,0 +1,39 @@
+name: Validate repository structure
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check required paths
+        run: |
+          set -euo pipefail
+          required=(
+            "GameName.uproject"
+            "Design/Vision.md"
+            "Design/Pillars.md"
+            "Source/GameName/GameName.Build.cs"
+            "Content/GameName/README.md"
+            "Plugins/GameFeatures/README.md"
+            ".gitattributes"
+            ".gitignore"
+          )
+          for p in "${required[@]}"; do
+            test -e "$p" || { echo "Missing: $p"; exit 1; }
+          done
+          echo "Structure OK."
+
+      - name: Forbid console SDK path names in tree
+        run: |
+          set -euo pipefail
+          if find . -path ./.git -prune -o \( -iname '*Prospero*' -o -iname '*Scarlett*' -o -iname '*Orbis*' -o -iname '*GDK*' \) -print -quit | grep -q .; then
+            echo "Console SDK-like paths must not be committed."
+            exit 1
+          fi
+          echo "No console SDK path names detected."
