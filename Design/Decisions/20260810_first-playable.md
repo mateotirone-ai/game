@@ -1,94 +1,116 @@
 # Decision: First Playable — Frontier Settler Slice
 
-- Status: **Proposed** (awaiting creative direction acceptance)
+- Status: **Accepted** (creative interview 2026-08-10)
 - Date: 2026-08-10
-- Related pillars/docs: `Design/Pillars.md` (1–6), `Design/Vision.md`, `Design/CoreGameplayLoop.md`, `Design/Building.md`, `Design/Economy.md`, `Design/Multiplayer.md`
+- Related pillars/docs: `Design/Pillars.md`, `Design/Vision.md`, `Design/CoreGameplayLoop.md`, `Design/Building.md`, `Design/Economy.md`, `Design/Multiplayer.md`
 
 ## Context
 
-The repo is a structural skeleton. Without a locked first playable, agents and humans will sprawl into diplomacy, proc worlds, and combat before anything is fun.
+Creative direction answered a structured interview. Structural direction locks scope, sequence, and exit criteria so the first PIE build matches that taste—without sprawling into combat polish, politics, or fancy netcode.
 
-Creative direction owns fantasy and tone. Structural direction locks **scope, sequence, and exit criteria** for the first thing we can PIE and judge.
+**Language note:** Player is **not** immortal. You can die. The settlement persists and grows. Fantasy = **phoenix** (you return; the city endures). `Design/Vision.md` still says “immortal” in places — supersede with a follow-up Decision when we edit Vision.
 
 ## Decision
 
 ### Fantasy of the first session
 
-You are an **immortal frontier settler**—not a general, not a mayor yet. The feeling: *I am founding a hearth that will outlast me online; my hands make the first surplus.*
+You are a **frontier settler founding a hearth** at a **plains crossroads**. Tone: **cozy**, with **real risk the settlement can fail**. Solo hands for now; community is coming later (do not fake full NPC life in this slice).
 
-Tone: stylized, readable, hopeful grit—not grimdark survival punishment, not city-sim spreadsheet.
+Must-nail emotional beat: the player understands the **whole concept / endgame** — not just “I gathered wood.” Deliver via:
 
-### The 15-minute loop (only loop in scope)
+1. **Diegetic glimpse** of what towns become (ruins, distant exemplar, monument, map of eras, etc.)
+2. **Journal / era foresight UI** after first **Homestead → Hamlet** stage-up
 
-1. **Wake in the sandbox** — Possess immortal pawn on `L_DevSandbox` (hand-authored pocket world; not full procgen).
-2. **Gather** — Interact with 2–3 resource node types (e.g. wood, stone, forage/food).
-3. **Carry** — Items enter a personal inventory (capacity-limited, server-authority-shaped API even in SP).
-4. **Build** — Place a small set of snap modules (target: **foundation + wall/roof shelter + one workstation** storage or crafting stub).
-5. **Exchange** — Deposit surplus into a **settlement stockpile** and/or complete one trivial local “buy/sell” against a stub market (fixed or simple prices OK for slice).
-6. **See growth** — Cross a visible **Camp → Village** threshold (UI + world tell: banner, hearth upgrade, or stage label)—earned by housing + stockpile + basic food security signals, exact numbers tunable in data.
+### Player / death
 
-Controller-first: move, look, interact, build place/rotate/cancel, open inventory/stockpile—all remappable Enhanced Input.
+- Death is allowed (**Minecraft-like**).
+- Loot/recovery: **gravestones** (grave holds your stuff).
+- Settlement buildings, stockpile, and stage **persist** across death.
+- Ownership fantasy starts **unclear** — discover who “owns” the town later (not explained day one).
 
-### Exit criteria (“fun enough to playtest”)
+### The 15-minute loop (in scope)
 
-We call First Playable **done** when a cold player (or Mateo) can, in one PIE session on gamepad:
+Primary verbs: **gather + build**.
 
-- [ ] Move and interact without keyboard-only gates
-- [ ] Gather → inventory → spend materials on at least one shelter module
-- [ ] Contribute to settlement stockpile and notice the economy “exists”
-- [ ] Trigger Camp → Village (or equivalent first stage-up) and *feel* progression
-- [ ] Quit and re-enter PIE with **persistence of inventory + placed modules + settlement stage** in the local/dev save path (MP-shaped; not “level resets wipe identity”)
+1. First-person wake at plains crossroads sandbox (`L_DevSandbox`, hand-authored).
+2. Gather **Timber / Ore / Grain**.
+3. **Minecraft-style inventory** (slots + stacks).
+4. Build toward **roof / shelter** first — organic town placement (terrain-aware snap/sockets + chunky kits; **not** a pure Minecraft grid; buildings should feel like they follow the land).
+5. First exchange: contribute to **hearth stockpile**. Simple **coins** exist. Trader + neighbor barter are **in the fantasy** but not required to finish this slice.
+6. Hit **Homestead → Hamlet** with **UI banner** + **new build unlocks**. (NPCs arrive / music sting / landmark change = later.)
+7. Journal/era foresight fires; diegetic endgame glimpse is readable in the space.
 
-Not required for First Playable: multiplayer clients, dedicated server deploy, combat, NPCs with jobs, elections, tech tree UI, caravans, proc world.
+Controller-first, **clean modern gamepad UI**. Art north star: **soft stylized**.
 
-### Structural build order (no skipping ahead)
+### Exit criteria
 
-1. Boot: `L_DevSandbox`, PlayerStart, GameMode wired  
-2. Characters: immortal pawn + Enhanced Input (controller-first)  
-3. Resources: nodes → inventory component/subsystem (authority-shaped)  
-4. Building: 3-module kit, snap, material spend  
-5. Settlements + tiny Economy: stockpile, stage threshold, stub market  
-6. Local persistence for slice state  
+Cold playtest on gamepad can:
 
-Domain code lives under `Plugins/GameFeatures/` (`Characters`, `Resources`, `Building`, `Settlements`, `Economy`). Keep `Source/Aevum/` thin.
+- [ ] Move/look/interact in first person with modern gamepad HUD
+- [ ] Gather Timber/Ore/Grain into Minecraft-style inventory
+- [ ] Place shelter that reads as “home” on natural terrain (not grid-city)
+- [ ] Deposit into hearth stockpile; see coins exist
+- [ ] Trigger Homestead → Hamlet (banner + unlocks)
+- [ ] Receive journal/era foresight and notice a diegetic “what towns become” tell
+- [ ] Die → gravestone → recover; settlement still there
+- [ ] Re-enter session with persistence of inventory state rules, placed builds, stockpile, stage
+
+### Structural build order
+
+1. Boot: `L_DevSandbox` plains crossroads, GameMode, first-person pawn + Enhanced Input  
+2. Inventory (MC-style) + death/gravestone  
+3. Resource nodes (Timber/Ore/Grain)  
+4. Building kit (shelter-first, terrain-aware placement)  
+5. Settlement stage (Homestead→Hamlet) + banner/unlocks  
+6. Hearth stockpile + simple coins  
+7. Diegetic endgame tell + journal foresight beat  
+8. Local persistence for slice state (server-authority-shaped APIs)
+
+Domain code: `Plugins/GameFeatures/` (`Characters`, `Resources`, `Building`, `Settlements`, `Economy`). Thin `Source/Aevum/`.
 
 ### Explicitly out of First Playable
 
-- Full procedural world generation  
-- Trade routes, contracts, caravans  
-- Government / democracy / offices  
-- Diplomacy / treaties / war  
-- Combat / death resolution (immortal defeat rules deferred)  
-- Businesses with employees / wages  
-- Tech tree  
-- AIWorld population sim  
-- Console targets / platform services  
-- Photoreal or large art production—greybox + clear silhouettes OK  
+- Combat polish (can stub environmental fail without a combat game)  
+- Politics / voting / offices  
+- Full procedural world  
+- Fancy multiplayer/netcode (keep SP authority-shaped)  
+- Trader + neighbor barter as required path (later)  
+- NPC community arrival as stage-up must  
+- Tech tree, war, diplomacy, businesses-with-employees  
 
-### Open questions (creative can answer anytime; not blockers to start #1–2)
+### Creative answer log (source)
 
-1. Exact resource trio names/fantasy (wood/stone/forage vs something more branded)?  
-2. Settlement stage labels: Camp → Village, or different words?  
-3. Stub market: barter-only vs simple currency token for the slice?  
-4. How “immortal” is shown in UI in the first 15 minutes (title treatment, no death, subtle continuity copy)?  
-
-### Acceptance
-
-- **Proposed** until creative direction comments or edits this file and flips Status to **Accepted**.  
-- Structural direction will not expand scope past this Decision without a superseding Decision.
+| Topic | Answer |
+|-------|--------|
+| Who | Frontier settler founding a hearth |
+| Tone | Cozy |
+| Verbs | Gather + build |
+| Social | Solo now; community later |
+| Pressure | Settlement can fail |
+| Exchange order | Stockpile first; trader + neighbor later |
+| Money | Simple coins |
+| Building | Organic / land-following; not pure grid |
+| Home beat | Shelter / roof |
+| Place | Plains crossroads |
+| Stages | Homestead → Hamlet (real-life ladder) |
+| Stage-up must | UI banner + build unlocks |
+| Continuity | Phoenix; die; city grows |
+| Death loot | Gravestones |
+| Ownership | Unclear at first |
+| Camera | First person |
+| Art | Soft stylized |
+| UI | Clean modern gamepad |
+| Inventory | Minecraft-style |
+| Resources | Timber / Ore / Grain |
+| One moment | Sell full concept/endgame (diegetic + journal) |
+| Don’t waste early | Combat polish; politics/voting |
 
 ## Consequences
 
-- All feature PRs for the slice must map to the loop above or be rejected as early.  
-- Vision’s “full success look” (vote, trade pact, ore neighbor) remains north star—not this milestone.  
-- Persistence and inventory APIs must be written as if a server owns them, even when only local.
+- Feature work must map to this loop or be rejected as early.  
+- Vision “immortal player” wording needs a follow-up Vision edit Decision.  
+- Pillar “Immortal agency” reinterpreted for now as **persistent settlement + phoenix player**, not unkillable avatar.
 
 ## Alternatives considered
 
-| Alternative | Why not first |
-|-------------|---------------|
-| Politics-first (council / vote) | No economic substrate; hollow democracy |
-| Combat-first | Wrong fantasy for founding; delays village→city feel |
-| Proc world first | High cost, low loop clarity; hand sandbox is enough |
-| Full economy + businesses | Too many entities before gather/build feels good |
-| Visual vertical slice only (no systems) | Can’t validate immortal / settlement fantasy |
+Rejected as first slice: politics-first, combat-first, proc-world-first, true immortality with no death, pure grid building, community NPCs required on day one.

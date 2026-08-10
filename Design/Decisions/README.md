@@ -21,11 +21,12 @@ Record durable choices here as short markdown files:
 
 ## Active decisions
 
-- [20260810_first-playable.md](20260810_first-playable.md) — First Playable scope (**Proposed** until creative accepts)
+- [20260810_first-playable.md](20260810_first-playable.md) — First Playable scope (**Accepted**)
 
 ## Open questions to resolve soon
 
-- Exact immortal defeat / death recovery rules
-- Currency minting model
+- Update `Design/Vision.md` / pillars language: phoenix + persistent city (not unkillable immortal)
+- Currency minting model beyond “simple coins exist”
 - Tech research: personal vs settlement pool vs hybrid
-- First Playable creative nits listed inside the First Playable Decision
+- How settlement failure actually plays (famine? raid stub? decay?) without combat polish
+- Exact Homestead → Hamlet numeric thresholds (data-tune later)
