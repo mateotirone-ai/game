@@ -4,7 +4,7 @@ Standing orders for AI agents working in this repository. **Think like a game de
 
 ## What this is
 
-**Aevum** (working title): persistent multiplayer civilization game experienced through an **immortal player character**. Survival, modular building, procedural worlds, settlement growth (village → city), real economics, regional specialization, trade, tech, diplomacy, democracy, cooperation, and conflict. Stylized visuals. Controller-first UI. PC-first; Xbox Series and PS5 later.
+**Aevum** (working title): persistent multiplayer civilization game through a **phoenix settler** (you can die; the city endures). Survival, modular building, procedural worlds, settlement growth (homestead → city), real economics, regional specialization, trade, tech, diplomacy, democracy, cooperation, and conflict. Soft stylized, first-person, controller-first UI. PC-first; Xbox Series and PS5 later.
 
 ## Authority
 
@@ -15,7 +15,7 @@ Standing orders for AI agents working in this repository. **Think like a game de
 
 ## Think like a game developer
 
-- **Player fantasy first** — Immortal continuity and village→city drama beat incomplete system checklists.
+- **Player fantasy first** — Phoenix continuity and homestead→city drama beat incomplete system checklists.
 - **Vertical slice** — Ship a playable inch of the fantasy before sprawling platforms. One fun loop > five empty frameworks.
 - **Systems over scripts** — Prefer interlocking rules that emerge stories; set pieces support systems, they don’t replace them.
 - **Feel and readability** — Stylized clarity, telegraphed combat, controller-first UX. If it doesn’t read on a gamepad at gameplay distance, redesign.

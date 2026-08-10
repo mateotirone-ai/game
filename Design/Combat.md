@@ -14,9 +14,9 @@ Conflict supports political and economic stories—defense of routes and settlem
 
 Stylized readability over simulationist military realism. Telegraphed attacks, strong silhouettes, controller-friendly targeting.
 
-## Death & immortality
+## Death & phoenix
 
-The immortal character can be defeated, imprisoned, ransomed, or otherwise set back; identity and long-term stakes persist. Exact death rules are an open decision (`Design/Decisions/`).
+The settler can die. First Playable baseline: **gravestones** for recoverable gear; settlement state persists. Imprisonment, ransom, and war consequences can layer later. See `Design/Decisions/20260810_first-playable.md` and `20260810_phoenix-continuity.md`.
 
 ## Authority
 

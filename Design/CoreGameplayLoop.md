@@ -22,9 +22,9 @@
 - Diplomatic alignments redraw trade and conflict maps.
 - Demographic and AI-world simulation changes demand.
 
-## Immortal meta
+## Phoenix / civilization meta
 
-Reputation, titles, deeds, and capital compound. New players can still enter via immigration, apprenticeship, or frontier founding—without erasing veterans’ history.
+You can die; the settlement persists. Reputation, titles, deeds, and capital compound across respawns and sessions. New players can still enter via immigration, apprenticeship, or frontier founding—without erasing veterans’ history.
 
 ## Prototype focus (SP with MP-shaped data)
 

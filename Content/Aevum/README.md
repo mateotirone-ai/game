@@ -7,7 +7,7 @@ Primary Unreal content root. **Do not invent or commit binary `.uasset` / `.umap
 | Folder | Purpose |
 |--------|---------|
 | `Core/` | Framework assets: GameInstance, base GameModes, subsystems glue, shared enums/structs (as assets) |
-| `Characters/` | Immortal player character, NPCs, animation BPs, skeletal meshes |
+| `Characters/` | Settler player character, NPCs, animation BPs, skeletal meshes |
 | `Environment/` | World art, foliage, props, biomes, landscape materials |
 | `Maps/` | Levels, World Partition cells, lighting scenarios (`L_*`) |
 | `UI/` | Controller-first CommonUI / UMG widgets, input mapping contexts |
@@ -24,14 +24,14 @@ Prefix + PascalCase descriptive name. Examples:
 | Type | Prefix | Example |
 |------|--------|---------|
 | Level / Map | `L_` | `L_DevSandbox` |
-| Blueprint | `BP_` | `BP_ImmortalPlayer` |
+| Blueprint | `BP_` | `BP_SettlerPlayer` |
 | Widget Blueprint | `WBP_` | `WBP_SettlementHUD` |
 | Material | `M_` | `M_StylizedFoliage` |
 | Material Instance | `MI_` | `MI_StylizedFoliage_Autumn` |
 | Material Function | `MF_` | `MF_DetailNoise` |
 | Texture | `T_` | `T_Bark_D` (suffix `_D` `_N` `_ORM` etc.) |
 | Static Mesh | `SM_` | `SM_Wall_Wood_01` |
-| Skeletal Mesh | `SK_` | `SK_PlayerImmortal` |
+| Skeletal Mesh | `SK_` | `SK_PlayerSettler` |
 | Skeleton | `SKEL_` | `SKEL_Humanoid` |
 | Animation Sequence | `A_` | `A_Idle_Loop` |
 | Anim Blueprint | `ABP_` | `ABP_Player` |

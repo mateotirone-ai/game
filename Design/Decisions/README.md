@@ -22,10 +22,10 @@ Record durable choices here as short markdown files:
 ## Active decisions
 
 - [20260810_first-playable.md](20260810_first-playable.md) — First Playable scope (**Accepted**)
+- [20260810_phoenix-continuity.md](20260810_phoenix-continuity.md) — Phoenix language (**Accepted**)
 
 ## Open questions to resolve soon
 
-- Update `Design/Vision.md` / pillars language: phoenix + persistent city (not unkillable immortal)
 - Currency minting model beyond “simple coins exist”
 - Tech research: personal vs settlement pool vs hybrid
 - How settlement failure actually plays (famine? raid stub? decay?) without combat polish

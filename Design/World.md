@@ -16,9 +16,10 @@ A procedural (or semi-procedural) world with biomes, resources, and settlement s
 
 | Stage | Feel | Typical unlocks |
 |-------|------|-----------------|
-| Camp | Survival | Shelter, campfire, basic storage |
-| Village | Community | Housing plots, workshop, council hut |
-| Town | Specialization | Markets, walls, multiple districts |
+| Homestead | Survival / founding | Shelter, hearth, basic storage |
+| Hamlet | First community | Housing plots, workshop, stockpile |
+| Village | Civic roots | Markets, shared builds, early offices |
+| Town | Specialization | Walls, multiple districts |
 | City | Institutions | Complex industry, diplomacy hall, large logistics |
 
 Exact thresholds live in data (`DT_SettlementTiers`) once authored.

@@ -14,7 +14,7 @@ Dedicated **authoritative servers** are the target architecture. Prototype in si
 
 ## Session model (target)
 
-- Immortal characters bound to accounts.
+- Settler characters bound to accounts (phoenix continuity across sessions).
 - Cross-session world continuity.
 - Optional private/dev sandboxes for designers (not the live economy).
 

@@ -1,6 +1,6 @@
 # Aevum
 
-Working title for a PC-first Unreal Engine 5 **persistent multiplayer civilization game** experienced through an **immortal player character**. Combines survival, modular construction, procedural worlds, settlement growth, real economics, regional specialization, businesses, trading, technology, diplomacy, democracy, cooperation, and conflict.
+Working title for a PC-first Unreal Engine 5 **persistent multiplayer civilization game** through a **phoenix settler** (you can die; the city grows forever). Combines survival, modular construction, procedural worlds, settlement growth, real economics, regional specialization, businesses, trading, technology, diplomacy, democracy, cooperation, and conflict. Soft stylized, first-person, controller-first.
 
 Future targets: **Xbox Series** and **PlayStation 5** (platform SDKs are never committed here).
 
@@ -39,8 +39,10 @@ git clone <repo-url>
 cd game-main
 git lfs install
 git lfs pull
-# Generate project files, then open Aevum.uproject in UE 5.5
+# Open Aevum.uproject in UE 5.5, then author L_DevSandbox (see below)
 ```
+
+First editor session: [`Documentation/UE_Boot.md`](Documentation/UE_Boot.md) + [`Content/Aevum/Maps/README.md`](Content/Aevum/Maps/README.md).
 
 ## Multiplayer stance
 

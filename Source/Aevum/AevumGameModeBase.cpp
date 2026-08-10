@@ -1,6 +1,10 @@
 #include "AevumGameModeBase.h"
 
+#include "AevumPlayerController.h"
+#include "AevumSettlerCharacter.h"
+
 AAevumGameModeBase::AAevumGameModeBase()
 {
-	// Default pawn / HUD classes are assigned from content or subclasses.
+	DefaultPawnClass = AAevumSettlerCharacter::StaticClass();
+	PlayerControllerClass = AAevumPlayerController::StaticClass();
 }

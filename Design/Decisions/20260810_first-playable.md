@@ -8,7 +8,7 @@
 
 Creative direction answered a structured interview. Structural direction locks scope, sequence, and exit criteria so the first PIE build matches that taste—without sprawling into combat polish, politics, or fancy netcode.
 
-**Language note:** Player is **not** immortal. You can die. The settlement persists and grows. Fantasy = **phoenix** (you return; the city endures). `Design/Vision.md` still says “immortal” in places — supersede with a follow-up Decision when we edit Vision.
+**Language note:** Player is **not** an unkillable immortal. Fantasy = **phoenix** (you return; the city endures). Spec language updated in `Design/Decisions/20260810_phoenix-continuity.md`.
 
 ## Decision
 
@@ -108,8 +108,7 @@ Domain code: `Plugins/GameFeatures/` (`Characters`, `Resources`, `Building`, `Se
 ## Consequences
 
 - Feature work must map to this loop or be rejected as early.  
-- Vision “immortal player” wording needs a follow-up Vision edit Decision.  
-- Pillar “Immortal agency” reinterpreted for now as **persistent settlement + phoenix player**, not unkillable avatar.
+- Vision/Pillars use **phoenix continuity** per `20260810_phoenix-continuity.md`.
 
 ## Alternatives considered
 

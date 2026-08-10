@@ -16,7 +16,7 @@ Each feature owns its content, optional C++ module, and design counterpart under
 | `Government` | Democracy, laws, offices | `Design/Government.md` |
 | `Diplomacy` | Factions, treaties, reputation | `Design/Government.md` |
 | `Combat` | Conflict, raids, defense | `Design/Combat.md` |
-| `Characters` | Immortal PC, NPCs, roles | `Design/Vision.md` |
+| `Characters` | Settler PC, NPCs, roles | `Design/Vision.md` |
 | `Multiplayer` | Sessions, replication helpers, server | `Design/Multiplayer.md` |
 | `AIWorld` | Settlement AI, ambient simulation | `Design/World.md` |
 
