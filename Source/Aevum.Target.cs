@@ -1,13 +1,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class GameNameEditorTarget : TargetRules
+public class AevumTarget : TargetRules
 {
-	public GameNameEditorTarget(TargetInfo Target) : base(Target)
+	public AevumTarget(TargetInfo Target) : base(Target)
 	{
-		Type = TargetType.Editor;
+		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_5;
-		ExtraModuleNames.Add("GameName");
+		ExtraModuleNames.Add("Aevum");
 	}
 }

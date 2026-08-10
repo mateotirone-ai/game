@@ -1,4 +1,4 @@
-# Content/GameName/
+# Content/Aevum/
 
 Primary Unreal content root. **Do not invent or commit binary `.uasset` / `.umap` files from outside the editor** unless they are real authored assets.
 

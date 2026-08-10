@@ -5,7 +5,7 @@
 	"Description": "Persistent multiplayer civilization game experienced through an immortal player character. PC-first; Xbox Series and PlayStation 5 targets planned.",
 	"Modules": [
 		{
-			"Name": "GameName",
+			"Name": "Aevum",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [

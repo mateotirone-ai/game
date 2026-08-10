@@ -1,13 +1,13 @@
 # Source/
 
-C++ game module and build targets for **GameName**.
+C++ game module and build targets for **Aevum**.
 
 | Path | Purpose |
 |------|---------|
-| `GameName.Target.cs` | Client/game target (PC) |
-| `GameNameEditor.Target.cs` | Editor target |
-| `GameNameServer.Target.cs` | Dedicated server target (authoritative multiplayer) |
-| `GameName/` | Primary runtime module |
+| `Aevum.Target.cs` | Client/game target (PC) |
+| `AevumEditor.Target.cs` | Editor target |
+| `AevumServer.Target.cs` | Dedicated server target (authoritative multiplayer) |
+| `Aevum/` | Primary runtime module |
 
 ## Rules
 

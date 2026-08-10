@@ -1,6 +1,6 @@
 # Vision
 
-**GameName** is a persistent multiplayer civilization game experienced through an **immortal player character**. Players survive, build, specialize, trade, govern, cooperate, and conflict as settlements grow from tiny villages into large cities inside a living, procedural world.
+**Aevum** is a persistent multiplayer civilization game experienced through an **immortal player character**. Players survive, build, specialize, trade, govern, cooperate, and conflict as settlements grow from tiny villages into large cities inside a living, procedural world.
 
 ## Elevator pitch
 

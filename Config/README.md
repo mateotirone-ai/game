@@ -14,4 +14,4 @@ Committed Unreal configuration for the project.
 - Do **not** commit secrets, API keys, or local machine overrides.
 - Put personal overrides in ignored `*.local` / `User*.ini` files.
 - Console platform SDK paths and cert material must never appear here.
-- Prefer data-driven tuning in `Content/GameName/Data` over hardcoding gameplay values in ini when possible.
+- Prefer data-driven tuning in `Content/Aevum/Data` over hardcoding gameplay values in ini when possible.

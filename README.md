@@ -1,6 +1,6 @@
-# GameName
+# Aevum
 
-PC-first Unreal Engine 5 project for a **persistent multiplayer civilization game** experienced through an **immortal player character**. Combines survival, modular construction, procedural worlds, settlement growth, real economics, regional specialization, businesses, trading, technology, diplomacy, democracy, cooperation, and conflict.
+Working title for a PC-first Unreal Engine 5 **persistent multiplayer civilization game** experienced through an **immortal player character**. Combines survival, modular construction, procedural worlds, settlement growth, real economics, regional specialization, businesses, trading, technology, diplomacy, democracy, cooperation, and conflict.
 
 Future targets: **Xbox Series** and **PlayStation 5** (platform SDKs are never committed here).
 
@@ -12,9 +12,9 @@ Game specification lives in [`Design/`](Design/). Implementation follows those d
 
 | Path | Purpose |
 |------|---------|
-| `GameName.uproject` | Unreal project file (Engine **5.5**) |
+| `Aevum.uproject` | Unreal project file (Engine **5.5**) |
 | `Config/` | Committed default ini configuration |
-| `Content/GameName/` | Game content (authored in-editor; see naming conventions) |
+| `Content/Aevum/` | Game content (authored in-editor; see naming conventions) |
 | `Source/` | C++ module + Game / Editor / Server targets |
 | `Plugins/GameFeatures/` | Domain systems as Game Feature plugins |
 | `Design/` | Authoritative design spec |
@@ -39,12 +39,12 @@ git clone <repo-url>
 cd game-main
 git lfs install
 git lfs pull
-# Generate project files, then open GameName.uproject in UE 5.5
+# Generate project files, then open Aevum.uproject in UE 5.5
 ```
 
 ## Multiplayer stance
 
-Prototype in single-player, but keep inventories, settlements, and economy **server-authoritative in shape**. A `GameNameServer` target is stubbed for dedicated servers.
+Prototype in single-player, but keep inventories, settlements, and economy **server-authoritative in shape**. An `AevumServer` target is stubbed for dedicated servers.
 
 ## Git & LFS
 

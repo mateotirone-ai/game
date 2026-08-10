@@ -1,6 +1,6 @@
 # Tests/
 
-Automated and functional tests for GameName.
+Automated and functional tests for Aevum.
 
 Planned layout (as suites land):
 

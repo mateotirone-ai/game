@@ -21,7 +21,7 @@ Open a **draft PR** early for large work.
 2. Lock binary assets you will edit (`git lfs lock <path>`).
 3. Use World Partition / OFPA for map collaboration.
 4. Do not commit `Saved/`, `Intermediate/`, `Binaries/`, or local `User*.ini`.
-5. Follow naming conventions in `Content/GameName/README.md`.
+5. Follow naming conventions in `Content/Aevum/README.md`.
 6. Unlock assets after push.
 
 ## Code standards

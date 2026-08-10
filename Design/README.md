@@ -1,6 +1,6 @@
 # Design/ — Authoritative specification
 
-This folder is the **source of truth** for GameName gameplay and product intent. Implementation in `Source/`, `Content/`, and `Plugins/GameFeatures/` should follow these docs.
+This folder is the **source of truth** for Aevum gameplay and product intent. Implementation in `Source/`, `Content/`, and `Plugins/GameFeatures/` should follow these docs.
 
 | Doc | Topic |
 |-----|-------|

@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a defect in GameName
+about: Report a defect in Aevum
 title: "[Bug] "
 labels: bug
 ---

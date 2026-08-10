@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class GameName : ModuleRules
+public class Aevum : ModuleRules
 {
-	public GameName(ReadOnlyTargetRules Target) : base(Target)
+	public Aevum(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

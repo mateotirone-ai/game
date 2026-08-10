@@ -15,11 +15,11 @@ jobs:
         run: |
           set -euo pipefail
           required=(
-            "GameName.uproject"
+            "Aevum.uproject"
             "Design/Vision.md"
             "Design/Pillars.md"
-            "Source/GameName/GameName.Build.cs"
-            "Content/GameName/README.md"
+            "Source/Aevum/Aevum.Build.cs"
+            "Content/Aevum/README.md"
             "Plugins/GameFeatures/README.md"
             ".gitattributes"
             ".gitignore"

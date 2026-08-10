@@ -2,17 +2,17 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "GameNameGameModeBase.generated.h"
+#include "AevumGameModeBase.generated.h"
 
 /**
  * Base game mode. Prototype in single-player listen/standalone,
  * but keep replication and authority assumptions ready for dedicated servers.
  */
 UCLASS()
-class GAMENAME_API AGameNameGameModeBase : public AGameModeBase
+class AEVUM_API AAevumGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 
 public:
-	AGameNameGameModeBase();
+	AAevumGameModeBase();
 };
