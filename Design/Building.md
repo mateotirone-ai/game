@@ -4,7 +4,11 @@
 
 **Terrain-aware modular construction** that scales from personal shelter to a living town — organic early, districts later — with buildings that are **fully usable** in the civilization (shops, production, civic), not props.
 
-See `Design/Decisions/20260810_town-building-expansion.md`.
+See `Design/Decisions/20260810_town-building-expansion.md` and **stage-locked catalog** in `Design/Decisions/20260810_building-catalog.md`.
+
+## Stage-locked upgrades
+
+Building tiers track settlement stage: Homestead → Hamlet → Village → Town → City (T1–T5). Visual + functional. Cannot upgrade past current settlement stage.
 
 ## Principles
 
