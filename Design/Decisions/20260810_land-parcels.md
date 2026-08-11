@@ -1,14 +1,14 @@
 # Decision: Land parcels / lots vs buildings
 
-- Status: **Proposed** (foreign-buy rule pending)
+- Status: **Accepted**
 - Date: 2026-08-10
-- Related: building-catalog, town-building, first-playable, multiplayer Eve world
+- Related: building-catalog, town-building, first-playable, multiplayer Eve world, government
 
 ## Context
 
 Creative direction separated **land ownership** from **buildings**. Lots can grow; buildings upgrade on owned land. Enables buying land in other players’ towns (shared world).
 
-## Decision (locked so far)
+## Decision
 
 ### Two layers
 
@@ -20,17 +20,15 @@ Creative direction separated **land ownership** from **buildings**. Lots can gro
 - You claim **one starter lot**.  
 - Other town lots appear as inhabitants arrive / town parcels.
 
-### Long-term fantasy
+### Cross-town / foreign buyers
 
-- Inhabitants own lots.  
-- You can **buy land in someone else’s town** (IRL property fantasy), subject to rules below (pending).
+All of these are valid modes — **configured by the town / property owner** (laws + listing settings), not a single global rule:
 
-### Open — buying in another town
+- Open sale to anyone  
+- Restrict foreign buyers  
+- Require citizenship / reputation first  
 
-- A) Yes freely if the lot is for sale  
-- B) Yes, but the town can restrict foreign buyers (laws)  
-- C) Only after citizenship / reputation in that town  
-- D) Something else  
+Town government + owner listing flags compose the real policy (IRL-like local property rules).
 
 ## Sequencing
 
@@ -38,10 +36,10 @@ Creative direction separated **land ownership** from **buildings**. Lots can gro
 |-------|--------|
 | First Playable | One starter lot + buildings on it; no foreign real-estate market yet |
 | Next | Lot expand/stake; citizen lots |
-| Later | Cross-town land market + town laws |
+| Later | Cross-town land market + configurable owner/town rules |
 
 ## Consequences
 
 - Supersedes “claim radius only” as the end state — parcels are first-class.  
 - Building catalog upgrades remain stage-locked; pad footprint fixed; lot size independent.  
-- Economy + government interact (property tax, foreign-owner laws later).
+- Economy + government interact (property tax, foreign-owner laws, listing permissions).

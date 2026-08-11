@@ -10,7 +10,7 @@ Settlements adopt **institutions**: offices, laws, taxes, and enfranchisement. D
 - **Voters:** residents / citizens of the settlement.
 - **Charters** — Define offices, civic plots, law scope (ownership fantasy starts unclear; discovered over time).
 - **Offices** — Mayor, treasurer, marshal, diplomat (names data-driven).
-- **Laws** — Tax rates, build codes, militia drafts, market rules.
+- **Laws** — Tax rates, build codes, militia drafts, market rules, **foreign land-ownership / sale restrictions** (configurable with owner listings; see `Design/Decisions/20260810_land-parcels.md`).
 - **Democracy options** — Proposals → debate window → vote → enactment with veto/override variants.
 
 Not every settlement must be democratic; forms have tradeoffs (speed vs legitimacy vs corruption risk).

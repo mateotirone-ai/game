@@ -28,7 +28,7 @@ Record durable choices here as short markdown files:
 - [20260810_materials-tools.md](20260810_materials-tools.md) — Materials/tools (**Accepted**)
 - [20260810_storage-building-upgrades.md](20260810_storage-building-upgrades.md) — Storage + universal building upgrades (**Accepted**)
 - [20260810_building-catalog.md](20260810_building-catalog.md) — Full building list + stage upgrades (**Proposed**)
-- [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Proposed**)
+- [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon
 
