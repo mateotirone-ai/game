@@ -37,6 +37,7 @@ Record durable choices here as short markdown files:
 - [20260810_water.md](20260810_water.md) — Full water + contextual hydration; irrigation parked (**Accepted**)
 - [20260810_food-chain.md](20260810_food-chain.md) — Full food chain; Village+ diets (**Accepted**)
 - [20260810_trade-caravans.md](20260810_trade-caravans.md) — Haul/caravans; Eve-like route risk (**Accepted**)
+- [20260810_army-combat.md](20260810_army-combat.md) — Early militia + base-defense AI (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon

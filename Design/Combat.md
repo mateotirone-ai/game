@@ -10,6 +10,8 @@ Conflict supports political and economic stories—defense of routes and settlem
 
 Player is **army commander**: train and house soldiers. Fights play like **first-person Clash of Clans** (base/army from your eyes). Claim attacks require **war declaration**. Security bands (Eve-like) shape how wild the frontier is.
 
+**Early systems** (`Design/Decisions/20260810_army-combat.md`): you + a few Barracks militia; **base-defense AI** with light FP command — not full unit micro.
+
 ## Modes
 
 - **Personal / small-scale** — Wildlife (harsher on frontiers), bandits, recovery runs to gravestones.
