@@ -27,6 +27,10 @@ See `Design/Decisions/20260810_technology.md`.
 
 Early game: survival clarity in minutes. Mid: economic identity in hours. Late: institutions and geopolitics over persistent eras.
 
+## Win / endless
+
+**Soft victories** (achievements, era/stage triumphs) — Minecraft-like. World never hard-ends. See `Design/Decisions/20260810_win-condition.md`.
+
 ## Anti-patterns
 
 - Gear treadmills that obsolete phoenix continuity or settlement identity.
