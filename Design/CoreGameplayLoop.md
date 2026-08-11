@@ -2,7 +2,7 @@
 
 ## Session loop (minutes)
 
-1. **Assess** — Needs (food, tools, housing), market prices, settlement goals, threats.
+1. **Assess** — Needs (food, **water/hydration**, tools, housing), market prices, settlement goals, threats.
 2. **Act** — Gather, craft, build modules, work a business, fulfill contracts, attend council.
 3. **Exchange** — Sell, buy, haul, hire, tax, or donate into shared pools.
 4. **Advance** — Unlock tech nodes, expand plots, elect officials, seal treaties.

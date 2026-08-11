@@ -8,7 +8,7 @@ A shared persistent world with biomes, resources, and settlement sites that supp
 
 ## Layers
 
-1. **Terrain & biomes** — Climate, elevation, water, fertility, mineral bands.
+1. **Terrain & biomes** — Climate, elevation, water, fertility, mineral bands. Water is a full systems pillar (sources, wells/irrigation, drought stress) — see `Design/Decisions/20260810_water.md`.
 2. **Resources** — Nodes and densities biased by biome (see Resources / Economy).
 3. **Sites** — Spawn-friendly valleys, harbors, chokepoints, ruins.
 4. **Infrastructure** — Roads, warehouses, docks built by players/settlements.

@@ -77,6 +77,7 @@ Domain code: `Plugins/GameFeatures/` (`Characters`, `Resources`, `Building`, `Se
 - Trader + neighbor barter as required path (later)  
 - NPC community arrival as stage-up must  
 - Tech tree, war, diplomacy, businesses-with-employees  
+- Full water / drought / irrigation sim and mandatory hydration (see `20260810_water.md`; phased later)  
 
 ### Creative answer log (source)
 
