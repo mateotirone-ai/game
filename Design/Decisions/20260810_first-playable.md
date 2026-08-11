@@ -80,7 +80,7 @@ Domain code: `Plugins/GameFeatures/` (`Characters`, `Resources`, `Building`, `Se
 - Full water / drought / irrigation sim and mandatory hydration (see `20260810_water.md`; phased later)  
 - Full food chain (cooking, diets, spoilage) — Grain stub only in FP (see `20260810_food-chain.md`)  
 - Culture / religion systems — **none** (see `20260810_culture-religion.md`)  
-- Full justice / courts / prison (see `20260810_justice-crime.md`; phased later)  
+- Full justice / courts (fines only; no player jail) — see `20260810_justice-crime.md`; phased later  
 
 ### Creative answer log (source)
 

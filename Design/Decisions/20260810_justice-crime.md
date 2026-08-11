@@ -1,46 +1,44 @@
 # Decision: Justice & Crime
 
-- Status: **Accepted** (process locked; sentence caps still open)
+- Status: **Accepted**
 - Date: 2026-08-10
-- Related: Government, Combat, Multiplayer, Diplomacy, land parcels
+- Related: Government, Combat, Multiplayer, Diplomacy, Economy
 
 ## Context
 
-Creative chose **full justice systems (C)** — courts, jails, trials, fines/prison — not war-flag-only.
+Creative chose **full justice systems** (crimes, courts, process), then locked sentencing to **just fines** — no player jail-duration fantasy.
 
 ## Decision
 
-Law and crime are **first-class gameplay**:
+### Systems
 
 - **Crimes** — theft, vandalism, assault, claim grief outside legal war, etc. (data table grows over time).
-- **Enforcement** — guards/militia, warrants, arrest in appropriate security/claim contexts.
-- **Courts / trials** — **hybrid process (C)**:
-  - **Minor crimes** — office-handled (marshal/judge or charter-named enforcement office): fines, short holds, restitution.
-  - **Serious crimes** — **player vote / jury** process before heavy sentences (long jail, exile, major asset penalties).
-- **Sentences** — fines, restitution, jail/prison time, exile/ban from claim (phoenix-compatible: body can be jailed; settlement persists).
-- Integrates with **charter laws**, citizenship, and security bands (high-sec enforcement stronger; frontier wilder).
+- **Enforcement** — guards/militia, warrants, confrontation in appropriate security/claim contexts.
+- **Courts / trials** — **hybrid process**:
+  - **Minor crimes** — office-handled (marshal/judge or charter-named office).
+  - **Serious crimes** — **player vote / jury** before heavy penalties.
+- **Sentences = fines (and restitution)** — pay coin / return goods. **No player imprisonment as a sentence.** Temporary detain for processing OK; no hours/days locked in a cell as gameplay.
+- War-flag remains the path for claim conquest; justice handles crime/civil harm.
 
-War-flag / declared war remains the legal path for claim conquest — justice handles **crime and civil harm**, not replacing diplomacy war.
+### Buildings
+
+Court / guard office matter. **Prison as a long-stay PvP cage is out.** Stocks/holding cell cosmetic or brief processing only if needed.
 
 ### Sequencing
 
 | Phase | Scope |
 |-------|--------|
-| First Playable | None (personal death/grave only) |
-| Next | Simple theft/trespass flags + claim protection |
-| Mid | Jail building, fines, basic trial/office |
-| Later | Full court variants, prison, extradition treaties |
+| First Playable | None |
+| Next | Simple crime flags + fine payout |
+| Mid | Offices for minor; jury/vote for serious; restitution |
+| Later | Richer crime table, extradition-via-treaty fine collection |
 
 ### Authority
 
-Crime detection outcomes, arrests, sentences, and inventory seizures are **server-authoritative**.
+Crime outcomes, verdicts, fine balances, and seizures are **server-authoritative**.
 
 ## Locked interview answers
 
-1. Depth → **C full**
+1. Depth → **C full** (process + enforcement)
 2. Process → **C** offices for minor; jury/vote for serious
-
-## Open questions
-
-1. Sentence caps / bail vs long real-time jail?
-2. Is prison break a legitimate play fantasy?
+3. Sentences → **fines / restitution only** (no player jail sentences)
