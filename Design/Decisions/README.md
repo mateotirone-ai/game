@@ -50,6 +50,7 @@ Record durable choices here as short markdown files:
 - [20260810_difficulty.md](20260810_difficulty.md) — Private sliders; megaworld fixed (**Accepted**)
 - [20260810_modding.md](20260810_modding.md) — Mod hooks after core ships (**Accepted**)
 - [20260810_pollution.md](20260810_pollution.md) — Real pollution + cleanup/tech (**Accepted**)
+- [20260810_alliances.md](20260810_alliances.md) — Alliance orgs parked; treaty pacts OK (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon

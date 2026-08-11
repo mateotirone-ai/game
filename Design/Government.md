@@ -20,7 +20,8 @@ Not every settlement must be democratic; forms have tradeoffs (speed vs legitima
 **Mid depth** (see `Design/Decisions/20260810_diplomacy.md`):
 
 - Reputation between characters and settlements.
-- Treaties: non-aggression, transit rights, mutual defense, trade preference.
+- Treaties: non-aggression, transit rights, mutual defense / **alliance-as-pact**, trade preference.
+- Named alliance **orgs** (shared tax/bloc tools) are **parked** — see `Design/Decisions/20260810_alliances.md`.
 - Embassies / diplomat office as the interface.
 - Treaty signers are **charter-configurable** (default lean: mayor/diplomat).
 - Sanctions and embargoes as first-class economic instruments.
