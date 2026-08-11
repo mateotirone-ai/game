@@ -29,7 +29,7 @@ Not every settlement must be democratic; forms have tradeoffs (speed vs legitima
 
 ## Justice & crime
 
-**Full systems** (see `Design/Decisions/20260810_justice-crime.md`): crimes, enforcement, courts/trials, fines and jail/prison. Charter laws define process. Complements war-flag — does not replace it.
+**Full systems** (see `Design/Decisions/20260810_justice-crime.md`): crimes, enforcement, courts/trials, fines and jail/prison. Minor cases via offices; **serious cases via jury/vote**. Complements war-flag — does not replace it.
 
 ## Multiplayer integrity
 
