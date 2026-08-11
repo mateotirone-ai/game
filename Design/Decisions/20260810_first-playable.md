@@ -79,7 +79,7 @@ Domain code: `Plugins/GameFeatures/` (`Characters`, `Resources`, `Building`, `Se
 - Tech tree, war, diplomacy, businesses-with-employees  
 - Full water / drought / irrigation sim and mandatory hydration (see `20260810_water.md`; phased later)  
 - Full food chain (cooking, diets, spoilage) — Grain stub only in FP (see `20260810_food-chain.md`)  
-- Full culture / religion systems (see `20260810_culture-religion.md`; phased later)  
+- Culture / religion systems — **none** (see `20260810_culture-religion.md`)  
 
 ### Creative answer log (source)
 
