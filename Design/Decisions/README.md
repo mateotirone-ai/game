@@ -33,7 +33,7 @@ Record durable choices here as short markdown files:
 - [20260810_capital-outposts.md](20260810_capital-outposts.md) — Capital + hard-claim outposts (**Accepted**)
 - [20260810_new-player-spawn.md](20260810_new-player-spawn.md) — Frontier spawn for trade biomes (**Accepted**)
 - [20260810_time-of-day.md](20260810_time-of-day.md) — Day/night only, no seasons (**Accepted**)
-- [20260810_animals.md](20260810_animals.md) — Livestock + wildlife (**Accepted**)
+- [20260810_animals.md](20260810_animals.md) — Livestock + wildlife; frontier-varies threat (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon
