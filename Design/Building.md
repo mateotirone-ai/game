@@ -25,7 +25,7 @@ Building tiers track settlement stage: Homestead → Hamlet → Village → Town
 
 ## Shops
 
-Storefront + production + assignable operator. Player- or citizen-owned. Local stock + optional settlement stockpile restock.
+Storefront + production + assignable operator. **Player-owned only**; citizens may work as operators. Local stock + optional settlement stockpile restock.
 
 ## Controller-first build UX
 
