@@ -41,6 +41,7 @@ Record durable choices here as short markdown files:
 - [20260810_diplomacy.md](20260810_diplomacy.md) — Mid diplomacy; charter-gated signers (**Accepted**)
 - [20260810_population-jobs.md](20260810_population-jobs.md) — Soft pop; real visible jobs (**Accepted**)
 - [20260810_culture-religion.md](20260810_culture-religion.md) — No culture/religion systems (**Accepted**; reversed)
+- [20260810_justice-crime.md](20260810_justice-crime.md) — Full courts/jails/trials (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon

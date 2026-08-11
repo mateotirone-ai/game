@@ -27,6 +27,10 @@ Not every settlement must be democratic; forms have tradeoffs (speed vs legitima
 - Breach consequences: casus belli flags, trust collapse, NPC/AI reactions.
 - Vassals / multi-party conferences = late optional, not mid-core.
 
+## Justice & crime
+
+**Full systems** (see `Design/Decisions/20260810_justice-crime.md`): crimes, enforcement, courts/trials, fines and jail/prison. Charter laws define process. Complements war-flag — does not replace it.
+
 ## Multiplayer integrity
 
 Votes and law changes are server-authoritative with auditable logs. No silent client-side charter edits.
