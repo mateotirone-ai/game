@@ -40,6 +40,7 @@ Record durable choices here as short markdown files:
 - [20260810_army-combat.md](20260810_army-combat.md) — Militia pool + hire escorts; gated offense (**Accepted**)
 - [20260810_diplomacy.md](20260810_diplomacy.md) — Mid diplomacy; charter-gated signers (**Accepted**)
 - [20260810_population-jobs.md](20260810_population-jobs.md) — Soft pop; real visible jobs (**Accepted**)
+- [20260810_culture-religion.md](20260810_culture-religion.md) — Full culture + religion systems (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon
