@@ -1,6 +1,6 @@
 # Decision: Materials, biomes, tools
 
-- Status: **Accepted** (tool-break detail pending — see Open)
+- Status: **Accepted**
 - Date: 2026-08-10
 - Related: First Playable, Economy, World, Building
 
@@ -23,15 +23,7 @@ Minecraft-aspect gather/build systems, tied to regional economy and trade pressu
 - Tools can be **upgraded and repaired**.
 - Each tier can also be **crafted as a new tool** (e.g. if one is lost/destroyed).
 - **Upgrading an existing tool is cheaper** than crafting a brand-new tool of that tier.
-
-### Open — break behavior
-
-When durability hits zero:
-
-- A) Breaks like Minecraft (gone / must replace)  
-- B) Enters broken state — repairable at cost  
-- C) Never fully breaks — only loses efficiency  
-- D) Something else  
+- At zero durability tools enter a **broken state** (still an item) and are **repairable at a cost** — not deleted like classic Minecraft break.
 
 ## Sequencing
 
