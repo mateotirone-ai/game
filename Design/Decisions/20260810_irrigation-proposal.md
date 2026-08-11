@@ -64,3 +64,5 @@ Crop growth, water in channels, and sprinkler state are **server-authoritative**
 ## Locked interview answers
 
 1. Irrigation un-park → **creative farm-plot loop** (plow → seed → grow → harvest; bucket channels early; building sprinklers later)
+
+2. Farm labor → **A** player early; citizens auto-fill farm jobs when pop exists
