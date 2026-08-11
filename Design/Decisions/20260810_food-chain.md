@@ -1,6 +1,6 @@
 # Decision: Food Chain
 
-- Status: **Accepted** (hunger severity locked; spoilage/diets still open)
+- Status: **Accepted** (hunger + spoilage locked; citizen diets still open)
 - Date: 2026-08-10
 - Related: Economy, Building, Animals, Water, CoreGameplayLoop, civ meters
 
@@ -17,7 +17,7 @@ Food is a real production → processing → consumption system:
 - **Forage / hunt** — wild food and hunted meat as frontier supplements.
 - **Cooking** — Kitchen / Bakery (and later food hall) turn inputs into **meals / food products**.
 - **Diets** — settlement / citizen needs care about food variety or categories over time (not one infinite Grain blob as end state). Exact diet model TBD.
-- **Spoilage** — food can degrade; storage, packaging, and logistics matter (ties to Trade.md risk). Exact timers TBD.
+- **Spoilage** — **medium (B)**: raw spoils on a meaningful clock; cooked meals and proper storage (granary/warehouse, later packaging) last longer. Not a soft afterthought, not early hardcore logistics hell. Timers are data-tune.
 
 ### Player hunger
 
@@ -39,7 +39,7 @@ Civ **food** meter (already in world-systems) is fed by this chain. Shortages �
 |-------|--------|
 | First Playable | **Grain** as gatherable resource / stockpile input; no full cook/diet/spoilage required for exit criteria |
 | Next | Eat food item + simple hunger; camp cook / basic recipe (Grain → bread/meal) |
-| Mid | Livestock products, forage/hunt food, Kitchen/Bakery chain, light spoilage |
+| Mid | Livestock products, forage/hunt food, Kitchen/Bakery chain, medium spoilage + granary value |
 | Later | Diet variety, regional cuisine, packaging tech, trade spoilage pressure |
 
 ### First Playable stance
@@ -56,5 +56,5 @@ Do **not** gate Homestead→Hamlet on cooking trees or spoilage. Grain in the tr
 ## Open questions
 
 1. ~~Player hunger severity~~ → **C contextual** (locked).
-2. How harsh is spoilage early vs late?
+2. ~~Spoilage harshness~~ → **B medium** (locked).
 3. Do citizens need meal variety from day one of Hamlet, or only later stages?
