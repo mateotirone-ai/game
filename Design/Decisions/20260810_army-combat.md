@@ -39,7 +39,13 @@ Creative chose **A + C** for early army composition / feel.
 - **Hireable escorts/guards** also exist (pay for temporary protection without pulling every defender off the walls) — same spirit as hireable caravan carriers.
 - Pulling militia to escort **weakens home defense** (readable tradeoff). Hiring costs coin/contracts instead.
 
-Army **size caps** scale with stage / tech / Barracks upgrades (data-tune; not a creative fork).
+### Army growth
+
+- Size scales with **population** and **Barracks capacity** (not a fixed early headcount).
+- Fill by **training villagers** (labor tradeoff) or **recruiting from other towns** (pay / diplomacy).
+- See `Design/Decisions/20260810_numeric-thresholds.md`.
+
+Army soft caps = Barracks tier × pop; data-tune.
 
 ### Authority
 

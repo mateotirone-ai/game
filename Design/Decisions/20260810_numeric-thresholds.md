@@ -35,14 +35,13 @@ Eve-like, **readable on the map** before travel/caravan dispatch:
 
 - Claim attacks still need **war-flag** (bands don’t replace declaration).
 - Exact radius/density formulas = data-tune; band **count and roles** are locked.
-## Still open (this Decision)
+### T4 — Army size / cadence (**population-scaled**)
 
-- Outside-claim loot delay + grave despawn duration (data-tune)
-- Exact High/Low/Null density formulas (data-tune)
-- Army size / combat cadence numbers
+Creative: no fixed early headcount (not A/B/C static squad sizes).
 
-## Locked interview answers
-
-1. Homestead → Hamlet → **C** building-gated (session-length costs)
-2. Grave loot → **D** claim-safe until self-loot/despawn; outside claim lootable
-3. Security bands → **A** High / Low / Null
+- Army **grows with population** and **Barracks capacity** (upgrades/stage/tech raise caps).
+- Soldiers come from:
+  1. **Train existing villagers** — convert citizens into militia (pulls labor from the auto-fill job pool; visible tradeoff).
+  2. **Recruit from other towns** — hire/attract fighters via pay, treaties, or civic deals (ties to diplomacy/trade; not free infinite spawns).
+- Early feel still matches army Decision: **few at Homestead**; larger as pop + Barracks scale — numbers are emergent, not a hardcoded 5/12/20.
+- Skirmish/wave **duration** = data-tune for controller readability; not locked to a minute count here.
