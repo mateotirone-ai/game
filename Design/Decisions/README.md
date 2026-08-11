@@ -35,7 +35,7 @@ Record durable choices here as short markdown files:
 - [20260810_time-of-day.md](20260810_time-of-day.md) — Day/night only, no seasons (**Accepted**)
 - [20260810_animals.md](20260810_animals.md) — Livestock + wildlife; frontier-varies threat (**Accepted**)
 - [20260810_water.md](20260810_water.md) — Full water + contextual hydration; irrigation parked (**Accepted**)
-- [20260810_food-chain.md](20260810_food-chain.md) — Full food chain; phased (**Accepted**)
+- [20260810_food-chain.md](20260810_food-chain.md) — Full food chain; contextual hunger (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon

@@ -1,6 +1,6 @@
 # Decision: Food Chain
 
-- Status: **Accepted** (depth locked; rule details pending)
+- Status: **Accepted** (hunger severity locked; spoilage/diets still open)
 - Date: 2026-08-10
 - Related: Economy, Building, Animals, Water, CoreGameplayLoop, civ meters
 
@@ -21,7 +21,13 @@ Food is a real production → processing → consumption system:
 
 ### Player hunger
 
-Open (next interview beat). Structural lean: pair with hydration — survival-readable, not a constant nag that fights cozy homestead fantasy in FP.
+**Contextual (C)** — same family as hydration:
+
+- Mild in settled / temperate play.
+- Worse under cold, sickness, hard labor, or food scarcity pressure.
+- Long ignore in those contexts can kill (soft → hard); not a constant everywhere-hunger nag.
+
+Readable on controller HUD; meals from cooking chain refill better than raw Grain long-term.
 
 ### Settlement food security
 
@@ -49,6 +55,6 @@ Do **not** gate Homestead→Hamlet on cooking trees or spoilage. Grain in the tr
 
 ## Open questions
 
-1. Player hunger severity (soft / soft→death / contextual like hydration)?
+1. ~~Player hunger severity~~ → **C contextual** (locked).
 2. How harsh is spoilage early vs late?
 3. Do citizens need meal variety from day one of Hamlet, or only later stages?
