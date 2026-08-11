@@ -29,12 +29,12 @@ Record durable choices here as short markdown files:
 - [20260810_storage-building-upgrades.md](20260810_storage-building-upgrades.md) — Storage + universal building upgrades (**Accepted**)
 - [20260810_building-catalog.md](20260810_building-catalog.md) — Full building list + stage upgrades (**Accepted**)
 - [20260810_building-art-direction.md](20260810_building-art-direction.md) — Regional architecture (**Accepted**)
+- [20260810_technology.md](20260810_technology.md) — Settlement tech / Library research (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon
 
 - Exact Homestead → Hamlet numeric thresholds (data-tune later)
-- Tech research: personal vs settlement pool vs hybrid
 - Grave loot timer duration / claim rules numbers
 - Security-band thresholds for Eve-like map
 - Army sizes / CoC-like combat cadence

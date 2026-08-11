@@ -16,7 +16,12 @@
 
 ## Technology
 
-Tech tree (data-driven) gates buildings, logistics, government forms, and military options. Research can be personal contribution into a settlement pool or era-wide discovery—decision recorded in `Design/Decisions/` when chosen.
+See `Design/Decisions/20260810_technology.md`.
+
+- Shared **settlement** tech tree.
+- **Library** researches in **real time** (library must exist first).
+- Stage ↔ tech **mutual gates**.
+- Unlocks mix of recipes/tools, buildings, and military branches.
 
 ## Pacing
 

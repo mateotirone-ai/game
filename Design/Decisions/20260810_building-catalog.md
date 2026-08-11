@@ -70,6 +70,7 @@ Town auto-fill picks from Hut/Cottage/Longhouse/Row/etc. by stage + population w
 | **Hearth** | FP | Settlement heart; stage signal | Camp hearth | Stone hearth | Square / plaza hearth | Civic square | Grand forum |
 | **Town Hall** | — | Government when needed | — | Meeting shed | Hall | Council hall | Palace / capitol |
 | **Notice Board / Charter Post** | — | Info, later votes | Post | Board | Hall annex | Civic kiosk | Archive |
+| **Library** | — | Settlement tech research (real time) | — | Reading shed | Library | Academy wing | Grand library |
 
 ### 3. Storage (organized — no chest sprawl)
 
