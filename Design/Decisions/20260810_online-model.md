@@ -22,7 +22,8 @@ Players may use private worlds without being forced always-online into the megaw
 ### Rules continuity
 
 - Inventory, economy, votes, crafting APIs stay **server-authoritative-shaped** in both modes (SP private still uses authority patterns — already FP stance).
-- Private worlds do **not** mint power into the megaworld (no asset teleport that breaks the live economy). Cross-save policy TBD in a later Decision if needed.
+- Private worlds do **not** mint power into the megaworld (no asset teleport that breaks the live economy).
+- **Cross-save (D):** **private → megaworld transfers banned** for items/builds/power. **Megaworld → private copy OK** for practice/sandbox (snapshot or clone rules; mega remains source of truth for that character’s live wealth).
 - Vision non-goal stays: **offline-only as the sole long-term architecture** is rejected; online megaworld is still a product pillar.
 
 ### Sequencing
@@ -32,8 +33,9 @@ Players may use private worlds without being forced always-online into the megaw
 | First Playable | Local/SP authority-shaped sandbox |
 | Next | Private dedicated / listen-server friends |
 | Mid | Megaworld shard / persistence online |
-| Later | Clear private↔mega policy (cosmetics-only transfer, or none) |
+| Later | Snapshot/copy mega→private practice tools |
 
 ## Locked interview answers
 
 1. Online model → **C both** (private world + optional shared megaworld)
+2. Cross-save → **D** private→mega banned; mega→private copy OK for practice
