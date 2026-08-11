@@ -31,6 +31,7 @@ Rule: when the settlement stages up, eligible buildings can be upgraded to that 
 - **All buildings are upgradeable** along this spine (where the family exists at that stage).
 - You cannot jump tiers past current settlement stage.
 - Demolish still returns partial materials (prior Decision).
+- **Fixed footprint:** T1 placement footprint must fit **all later tiers** through T5. Upgrades go **up / denser / richer materials**, not wider. No “upgrade needs a bigger lot” (avoids breaking roads, neighbors, and town layout).
 
 ---
 
@@ -42,7 +43,7 @@ Rule: when the settlement stages up, eligible buildings can be upgraded to that 
 
 | Building | FP | Role | T1 Homestead | T2 Hamlet | T3 Village | T4 Town | T5 City |
 |----------|----|------|--------------|-----------|------------|---------|---------|
-| **Settler Shelter** | FP | Your first roof | Lean-to / cabin | Proper cottage | Fine home | Estate wing | Manor / villa |
+| **Settler Shelter** | FP | Your first roof | Lean-to / cabin (sets lot size) | Same footprint, finished cottage | Same lot, finer home / taller | Same lot, dense estate look | Same lot, manor vertical massing |
 | **Housing** (town fill) | — | Citizen homes | Tent/hut | Cottage | Row house | Apartment block | Urban housing |
 
 Player places landmarks; town can auto-fill Housing per town-building Decision.

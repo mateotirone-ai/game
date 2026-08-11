@@ -8,7 +8,7 @@ See `Design/Decisions/20260810_town-building-expansion.md` and **stage-locked ca
 
 ## Stage-locked upgrades
 
-Building tiers track settlement stage: Homestead → Hamlet → Village → Town → City (T1–T5). Visual + functional. Cannot upgrade past current settlement stage.
+Building tiers track settlement stage: Homestead → Hamlet → Village → Town → City (T1–T5). Visual + functional. Cannot upgrade past current settlement stage. **Fixed footprint:** T5 must fit the original T1 lot (grow up/density, not wider).
 
 ## Principles
 
