@@ -21,6 +21,13 @@
 - Regions change massing language, roof typology, materials, ornament — not a different building system.
 - Upgrade tiers stay stage-locked; regional style persists as the building tiers up.
 
+### Town uniqueness (creative intent)
+
+- Towns should look **drastically different** from each other — super unique and **player-specific**.
+- Drivers that compound: region kit + which buildings the player chose + **variant picks** (A/B/C+) + stage mix + road graph from their edge builds + lot layout + wealth/wear.
+- Placement/fill systems must **bias toward diversity** (avoid repeating the same variant on a street).
+- Two plains towns at Hamlet can still read as different places because of player build order, variants, and parcel graph.
+
 ### Biome systems (placement vs look)
 
 - Look: regional architecture (this Decision).

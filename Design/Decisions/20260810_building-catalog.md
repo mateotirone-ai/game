@@ -1,6 +1,6 @@
 # Decision: Building catalog & stage-locked upgrades
 
-- Status: **Proposed** (awaiting creative redline)
+- Status: **Accepted** (creative intent: high uniqueness / player-specific towns)
 - Date: 2026-08-10
 - Related: town-building, storage-upgrades, materials-tools, first-playable, World.md stages
 
