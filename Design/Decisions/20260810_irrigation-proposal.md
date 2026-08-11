@@ -1,53 +1,60 @@
-# Decision: Irrigation — steal-from-games un-park proposal
+# Decision: Irrigation & Farm Loop
 
-- Status: **Proposed** (awaiting creative pick)
+- Status: **Accepted** (un-parks irrigation; replaces pending proposal pick)
 - Date: 2026-08-11
-- Related: `20260810_water.md`, food-chain, building catalog (Farm irrigated tiers), pollution
+- Related: `20260810_water.md`, land-parcels, building-catalog (Farm), materials-tools, food-chain
 
 ## Context
 
-Irrigation was **parked (D)** with permission to copy proven games. This is the structural un-park proposal.
+Creative specified the farm/irrigation fantasy in detail (supersedes the Timberborn-lite vs MC-radius menu). Steal-from-games proposal doc kept as research notes; **this Decision is authoritative**.
 
-## Shortlist (what to steal)
+## Decision
 
-| Game | Steal | Skip |
-|------|--------|------|
-| **Minecraft** | Hoe→farmland; wet farmland grows faster; simple readable wet/dry | Infinite source quirks; hydrate *through* solid blocks with no ditch |
-| **Timberborn** | Water **flows** in dug channels from a source; blocked ditch = dry downstream | Beaver-only fantasy; full 3D fluid obsession day one |
-| **Oxygen Not Included / Satisfactory** | Pumps, pipes, throughput later | Pipe spaghetti as the *early* farm fantasy |
-| **City-builders / farming sims** | Irrigation radius / district reach as soft UI read | Magic radius with no visible water path |
+### Plot + farm building
 
-## Structural recommendation (steal-first prototype)
+- Claim/use a **lot**, place a **Farm building** (family from catalog).
+- The **rest of the plot** is working ground: plow fields here (not a free-floating magic farm paint across the whole map).
 
-**Timberborn-lite flow + Minecraft wet-farm readability.**
+### Tools & progression
 
-1. **Dig irrigation channels** (trench tool) — your locked fantasy.
-2. **Source required** — river, lake, spring, or well/cistern **outlet**. No floating infinite wetness.
-3. **Flow** — water propagates along connected channels with a simple downhill / connected-path rule (server tick). Break the ditch or dry the source → downstream farms dry.
-4. **Wet fields** — Farm plots adjacent to a **flowing** channel (or natural floodplain/riverbank) become hydrated → growth/yield bonus (MC-like outcome).
-5. **Early gates** — ditch tool + river/well outlet after Homestead fun; arid biomes need this sooner.
-6. **Later ladder** — pumps, aqueducts, cistern pressure (ONI/Satisfactory depth) once ditches are fun.
-7. **Pollution hook** — polluted source can hydrate but apply crop/health penalties when pollution ships.
+1. **Plow** — tool creates plowed field / channel beds on the plot.  
+2. **Upgrade plow** later (better tools / farm upgrades) — faster, wider, or higher-tier soil.  
+3. **Seed** — place seeds in **set areas** on plowed ground.  
+4. **Grow** — real time (day/night already locked; no seasons).  
+5. **Harvest** — start with a simple harvest tool/action; **upgrade harvest** later.  
+6. Tool upgrades follow materials-tools rules (upgrade cheaper than new; broken→repairable).
 
-### Explicitly not v1
+### Watering (early → late)
 
-- Full Navier–Stokes fluids
-- MC infinite source duplication
-- Pipe networks as the first irrigation toy
+**Early:**
+- Fill a **bucket** at a **well** (or allowed source per commons/private lot rules).
+- **Dump water into plowed channels** on the farm plot — manual irrigation.
+- Ties to locked early canteens/buckets and contextual hydration.
+
+**Later farm upgrade:**
+- **Automatic pipe + sprinkler irrigation** that **connects to the Farm building** itself (building-tied logistics, not a free world pipe spaghetti as the first toy).
+- Further tiers can extend coverage, use less labor, or draw from cistern/well network.
+
+### Fit with prior water locks
+
+- Still a **full water** pillar; hydration + haul remain.  
+- Dig/plow **channels on the farm plot** are the early irrigation vernacular.  
+- Source honesty remains: water comes from well/source via bucket, later via building-connected plumbing.  
+- Pollution can taint well/pipe water when that system ships.
 
 ### Sequencing
 
 | Phase | Scope |
 |-------|--------|
-| First Playable | Visual water only |
-| Next | Drink + canteen (already locked) |
-| Mid prototype | Dig ditch + source→flow→wet farm |
-| Later | Pumps/aqueducts, drought, watershed politics |
+| First Playable | Farm stub OK; no full plow/irrigate required for Hamlet gate if costs already session-length — prefer Farm placed; irrigate loop can soft-stub |
+| Next | Plow tool + seed + grow + hand harvest; bucket from well → dump in channels |
+| Mid | Plow/harvest upgrades; Farm building auto pipe/sprinkler upgrade |
+| Later | Cistern links, drought, multi-plot agri districts |
 
-## Creative pick (reply in chat)
+### Authority
 
-- **A) Accept recommendation** — Timberborn-lite ditches + MC wet farms  
-- **B) MC-near** — wet radius from any water tile (faster to build; weaker “dig channel” fantasy)  
-- **C) Pipes-first** — ONI/Satisfactory early (heavier)  
-- **D) Stay parked** — revisit again later  
-- **E) Something else / blend**
+Crop growth, water in channels, and sprinkler state are **server-authoritative**.
+
+## Locked interview answers
+
+1. Irrigation un-park → **creative farm-plot loop** (plow → seed → grow → harvest; bucket channels early; building sprinklers later)

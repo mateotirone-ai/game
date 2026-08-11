@@ -85,7 +85,7 @@ Capacity, filters, and org features scale with tier.
 | Building | FP | Role | T1 | T2 | T3 | T4 | T5 |
 |----------|----|------|----|----|----|----|-----|
 | **Lumber Camp** | — | Timber processing | Chop stump | Saw rack | Sawmill | Timber yard | Lumber mill |
-| **Farm Plot / Granary Farm** | FP stub | Grain | Dirt plot | Fenced field | Irrigated farm (dug channels from source) | Estate farm | Agri district |
+| **Farm Plot / Granary Farm** | FP stub | Grain | Dirt plot + plow | Fenced + bucket channels | Irrigated (pipes/sprinklers on building) | Estate farm | Agri district |
 | **Mine Head** | — | Ore extract | Dig entrance | Timbered shaft | Mine works | Deep works | Industrial mine |
 | **Oil Derrick / Seep Works** | — | Oil (biome) | Seep gather | Hand pump | Derrick | Field battery | Refinery feed |
 | **Quarry** | — | Stone (slow-renew) | Surface cut | Quarry pit | Cut yard | Stoneworks | Monument quarry |
