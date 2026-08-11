@@ -31,7 +31,7 @@ Rule: when the settlement stages up, eligible buildings can be upgraded to that 
 - **All buildings are upgradeable** along this spine (where the family exists at that stage).
 - You cannot jump tiers past current settlement stage.
 - Demolish still returns partial materials (prior Decision).
-- **Fixed footprint:** T1 placement footprint must fit **all later tiers** through T5. Upgrades go **up / denser / richer materials**, not wider. No “upgrade needs a bigger lot” (avoids breaking roads, neighbors, and town layout).
+- **Fixed building pad:** T1 pad must fit **all later tiers** through T5 (up / denser / richer — not a wider building). Land holding grows separately by **buying adjacent lots** (`20260810_land-parcels.md`), not by stretching the building.
 
 ---
 

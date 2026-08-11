@@ -12,8 +12,8 @@ Creative direction separated **land ownership** from **buildings**. Lots can gro
 
 ### Two layers
 
-1. **Parcel / lot** — ownable land (expand, buy, sell).  
-2. **Building** — placed on a lot you own; upgrades along town stage; **building pad footprint** stays stable within the lot (taller/denser), while the **lot itself** can be larger or expanded.
+1. **Parcel / lot** — ownable land (buy, sell). Holding grows by **buying adjacent lots**, not magically stretching one parcel.  
+2. **Building** — placed on a lot you own; upgrades along town stage; **building pad footprint** stays stable within its lot (taller/denser). Multi-lot estates = multiple parcels owned next to each other.
 
 ### Homestead start
 
@@ -35,7 +35,7 @@ Town government + owner listing flags compose the real policy (IRL-like local pr
 | Phase | Scope |
 |-------|--------|
 | First Playable | One starter lot + buildings on it; no foreign real-estate market yet |
-| Next | Lot expand/stake; citizen lots |
+| Next | Adjacent-lot purchases; citizen lots |
 | Later | Cross-town land market + configurable owner/town rules |
 
 ## Consequences
