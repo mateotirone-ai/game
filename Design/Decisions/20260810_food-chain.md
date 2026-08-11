@@ -1,6 +1,6 @@
 # Decision: Food Chain
 
-- Status: **Accepted** (hunger + spoilage locked; citizen diets still open)
+- Status: **Accepted**
 - Date: 2026-08-10
 - Related: Economy, Building, Animals, Water, CoreGameplayLoop, civ meters
 
@@ -16,7 +16,7 @@ Food is a real production → processing → consumption system:
 - **Livestock products** — milk, meat, wool-adjacent goods per `20260810_animals.md` (when livestock ships).
 - **Forage / hunt** — wild food and hunted meat as frontier supplements.
 - **Cooking** — Kitchen / Bakery (and later food hall) turn inputs into **meals / food products**.
-- **Diets** — settlement / citizen needs care about food variety or categories over time (not one infinite Grain blob as end state). Exact diet model TBD.
+- **Diets** — citizen **meal variety** matters from **Village+ (B)**. Homestead/Hamlet can run on simple Grain/meals without variety pressure. Exact category model is data-tune later.
 - **Spoilage** — **medium (B)**: raw spoils on a meaningful clock; cooked meals and proper storage (granary/warehouse, later packaging) last longer. Not a soft afterthought, not early hardcore logistics hell. Timers are data-tune.
 
 ### Player hunger
@@ -53,8 +53,8 @@ Do **not** gate Homestead→Hamlet on cooking trees or spoilage. Grain in the tr
 - Regional crops reinforce specialization + trade.
 - Server-authoritative crafting, spoil ticks, and food meter.
 
-## Open questions
+## Locked interview answers
 
-1. ~~Player hunger severity~~ → **C contextual** (locked).
-2. ~~Spoilage harshness~~ → **B medium** (locked).
-3. Do citizens need meal variety from day one of Hamlet, or only later stages?
+1. Hunger severity → **C contextual**
+2. Spoilage → **B medium**
+3. Citizen diet variety → **B from Village+**
