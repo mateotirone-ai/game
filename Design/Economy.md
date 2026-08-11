@@ -18,7 +18,7 @@ Full chain intent: crops + livestock products + forage/hunt → cooking → meal
 
 ## Population & jobs
 
-Soft population with meters; **jobs are real** and produce for the town; workers are **visible at work**. Full home→work agent sim optional later. See `Design/Decisions/20260810_population-jobs.md`.
+Soft population with meters; **jobs are real** and produce for the town; workers are **visible at work**; slots **auto-fill**. Full home→work agent sim optional later. See `Design/Decisions/20260810_population-jobs.md`.
 
 ## Regional specialization
 
