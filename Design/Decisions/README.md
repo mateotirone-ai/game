@@ -52,13 +52,12 @@ Record durable choices here as short markdown files:
 - [20260810_pollution.md](20260810_pollution.md) — Real pollution + cleanup/tech (**Accepted**)
 - [20260810_alliances.md](20260810_alliances.md) — Alliance orgs parked; treaty pacts OK (**Accepted**)
 - [20260810_numeric-thresholds.md](20260810_numeric-thresholds.md) — Stage/grave/band numbers (**Partial**)
-- [20260810_irrigation-proposal.md](20260810_irrigation-proposal.md) — Steal-from-games irrigation (**Proposed**)
+- [20260810_irrigation-proposal.md](20260810_irrigation-proposal.md) — Farm-plot plow/bucket/sprinkler loop (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon
 
-- ~~Exact Homestead → Hamlet~~ → building-gated (core builds + road stub); session-length costs
-- ~~Grave loot timer / claim rules~~ → **D** claim-safe; outside lootable (despawn/delay data-tune)
-- ~~Security-band thresholds~~ → **A** High / Low / Null (density formulas data-tune)
-- ~~Army sizes / CoC-like combat cadence~~ → size = pop + Barracks; train locals or recruit abroad (wave minutes data-tune)
-- Irrigation un-park — pick A–E in `20260810_irrigation-proposal.md`
+- Outside-claim grave delay + despawn (data-tune)
+- High/Low/Null density formulas (data-tune)
+- Fight wave minutes (data-tune)
+- Farm plow/seed grid sizes (data-tune)
