@@ -37,7 +37,7 @@ Primary verbs: **gather + build**.
 3. **Minecraft-style inventory** (slots + stacks).
 4. Build toward **roof / shelter** first — organic town placement (terrain-aware snap/sockets + chunky kits; **not** a pure Minecraft grid; buildings should feel like they follow the land).
 5. First exchange: contribute to **hearth stockpile**. Simple **coins** exist. Trader + neighbor barter are **in the fantasy** but not required to finish this slice.
-6. Hit **Homestead → Hamlet** with **UI banner** + **new build unlocks**. (NPCs arrive / music sting / landmark change = later.)
+6. Hit **Homestead → Hamlet** when **Shelter + Hearth + Stockpile + Warehouse T1 + Farm + road stub** exist (building-gated; costs tuned for session-length, not a tiny deposit quota). **UI banner** + **new build unlocks**. (NPCs arrive / music sting / landmark change = later.) See `20260810_numeric-thresholds.md`.
 7. Journal/era foresight fires; diegetic endgame glimpse is readable in the space.
 
 Controller-first, **clean modern gamepad UI**. Art north star: **soft stylized**.
@@ -50,7 +50,7 @@ Cold playtest on gamepad can:
 - [ ] Gather Timber/Ore/Grain into Minecraft-style inventory
 - [ ] Place shelter that reads as “home” on natural terrain (not grid-city)
 - [ ] Deposit into hearth stockpile; see coins exist
-- [ ] Trigger Homestead → Hamlet (banner + unlocks)
+- [ ] Place Shelter, Hearth, Stockpile, Warehouse T1, Farm, road stub → Homestead → Hamlet (banner + unlocks)
 - [ ] Receive journal/era foresight and notice a diegetic “what towns become” tell
 - [ ] Die → gravestone → recover; settlement still there
 - [ ] Re-enter session with persistence of inventory state rules, placed builds, stockpile, stage
