@@ -12,8 +12,9 @@ Creative interview on how towns grow beyond the first shelter: who builds, layou
 
 ### Who builds
 
-- **Mix:** player places important / functional buildings; town fills housing and everyday shops over time.
-- Player can place **anything that matters** for civilization — buildings must be **usable systems**, not props.
+- **Player builds all businesses** — NPCs do **not** found or own shops/workshops.
+- Town may still **fill housing** / ambient life as people arrive (homes, not businesses).
+- Player places civic + production + shops that matter — buildings must be **usable systems**, not props.
 
 ### Layout
 
@@ -37,7 +38,8 @@ A shop is a **mix**:
 2. Production (outputs goods)  
 3. Assignable operator (citizen or player-run)
 
-- **Ownership:** both player-owned and citizen-owned businesses.
+- **Ownership:** **player-owned only** (no NPC/citizen businesses).
+- Operators may still be assignable citizens working *your* shop — they don’t own it.
 - **Inventory:** local shop stock **and** optional restock/orders from settlement stockpile.
 - Everything feeds the full civilization loop (meters, coins, jobs, trade).
 
@@ -53,7 +55,7 @@ A shop is a **mix**:
 |-------|----------------|
 | First Playable | Player places shelter + hearth; organic placement; stockpile; demolish with partial refund OK |
 | Next | Main roads; shop building type (storefront + production + operator); stockpile restock |
-| Later | Districts / old-town; citizen-owned shops; alley fill; optional civic demolish rules |
+| Later | Districts / old-town; alley fill; optional civic demolish rules |
 
 ## Consequences
 

@@ -14,7 +14,7 @@ Building tiers track settlement stage: Homestead → Hamlet → Village → Town
 
 - **Land-following, not pure grids** — Snap/sockets that respect terrain; towns feel real, not lattice cities.
 - **Function follows structure** — Workstations, shops, and storage have recipes, inventories, and operators.
-- **Player landmarks + town fill** — You place what matters; housing/everyday fabric can densify around roads.
+- **Player businesses + town housing fill** — You place all shops/production; NPCs do not own businesses. Housing/ambient fabric can densify around roads.
 - **Roads** — You place main roads; alleys fill as density rises.
 - **Districts / old-town** — Later zoning can preserve characterful early fabric vs newer growth.
 - **Claims** — Small expandable hearth plot (stage + staking).

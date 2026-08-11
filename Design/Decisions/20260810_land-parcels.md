@@ -19,7 +19,7 @@ Creative direction separated **land ownership** from **buildings**. Lots can gro
 
 - A private lot is only for **your home** and **your businesses** (player-owned shops/workshops on your parcels).
 - **Civic / settlement buildings** (hearth, town warehouse, barracks, roads, plazas, mint-as-civic, etc.) sit on **town / common land**, not on personal lots.
-- Citizens likewise use their lots for their home + their businesses.
+- NPC/citizen lots are for **housing only** — NPCs **cannot** build or own businesses (player-only commerce).
 
 ### Building vs buying land
 
