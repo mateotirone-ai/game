@@ -18,11 +18,15 @@ How AI and UE split work: [`AI_UE_Workflow.md`](AI_UE_Workflow.md).
 3. Confirm project GameMode is `AevumGameModeBase` (DefaultEngine.ini already points here).
 4. Default pawn is `AAevumSettlerCharacter` (first-person camera).
 
-## Create the sandbox map
+## Create the sandbox map (easiest)
 
-Follow [`Content/Aevum/Maps/README.md`](../Content/Aevum/Maps/README.md) to author `L_DevSandbox` (plains crossroads + Player Start).
+**One script builds the greybox for you** (no Place Actors needed):
 
-Until that map exists, the editor may warn that `/Game/Aevum/Maps/L_DevSandbox` is missing — create it before expecting a clean PIE.
+See [`Tools/Editor/README.md`](../Tools/Editor/README.md) — run `Tools/Editor/create_l_dev_sandbox.py` via **File → Execute Python Script…**, then **Alt+P**.
+
+Manual greybox steps (optional): [`Content/Aevum/Maps/README.md`](../Content/Aevum/Maps/README.md).
+
+Until that map exists, the editor may warn that `/Game/Aevum/Maps/L_DevSandbox` is missing.
 
 ## Smoke test
 
