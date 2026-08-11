@@ -157,10 +157,7 @@ Everything else is post-slice.
 
 ## Open for creative redline
 
-1. Rename any building families?  
-2. Missing must-have building for your fantasy?  
-3. Any family that should **not** upgrade every stage (cap early)?  
-4. Accept as **Accepted** or request edits?
+**Parked (E)** — revisit in editor / art pass later. No rename/missing/cap pass required now; catalog stays **Accepted** as-is until then.
 
 ## Land placement (see land-parcels Decision)
 
