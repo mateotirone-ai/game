@@ -7,7 +7,7 @@ A **real economy**: scarcity, production chains, labor, prices, businesses, and 
 ## Core entities
 
 - **Resources / goods** — Raw, intermediate, finished; quality tiers optional.
-- **Stockpiles** — Personal, business, settlement warehouses.
+- **Stockpiles** — Personal inventory + upgradable settlement storage buildings (organized; not chest sprawl). Shop local stock + optional stockpile restock.
 - **Recipes** — Inputs, time, skill/tech gates, workstation requirements.
 - **Businesses** — Player- or NPC-owned enterprises with ledgers, wages, and inventory.
 - **Prices** — Local market clearing with logistics friction; no global magic vendor as end state.

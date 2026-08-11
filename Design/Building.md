@@ -16,6 +16,8 @@ See `Design/Decisions/20260810_town-building-expansion.md`.
 - **Claims** — Small expandable hearth plot (stage + staking).
 - **Repair & upkeep** — Tied to civ meters / decay pressure.
 - **Demolish** — Allowed; partial material refund that makes sense (not full free recycle).
+- **Upgrades** — All buildings upgradeable; upgrades are **visual + functional** (see `Design/Decisions/20260810_storage-building-upgrades.md`).
+- **Storage** — Settlement storage buildings (upgradable) + personal inventory; organized stockpile UX, not chest sprawl.
 
 ## Shops
 

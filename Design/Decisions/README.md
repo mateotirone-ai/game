@@ -26,6 +26,7 @@ Record durable choices here as short markdown files:
 - [20260810_world-systems-interview.md](20260810_world-systems-interview.md) — World/systems locks (**Accepted**)
 - [20260810_town-building-expansion.md](20260810_town-building-expansion.md) — Town building/shops (**Accepted**)
 - [20260810_materials-tools.md](20260810_materials-tools.md) — Materials/tools (**Accepted**)
+- [20260810_storage-building-upgrades.md](20260810_storage-building-upgrades.md) — Storage + universal building upgrades (**Accepted**)
 
 ## Open questions to resolve soon
 
