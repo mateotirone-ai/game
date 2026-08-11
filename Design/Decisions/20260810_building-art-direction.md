@@ -23,7 +23,7 @@
 ### Biome systems (placement vs look)
 
 - Look: regional architecture (this Decision).
-- Economy: biome extractables still drive efficiency / what pays off (materials-tools Decision); hard place-gates TBD if creative wants them later.
+- Placement: **soft warn + allow** — you can place a Mine/Farm/Oil works in a weak biome; UI warns it’s a poor fit; efficiency/output suffers (forces trade/explore without hard blocks).
 
 ## Consequences
 

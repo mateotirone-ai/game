@@ -17,6 +17,7 @@ Minecraft-aspect gather/build systems, tied to regional economy and trade pressu
 - Resources are **biome-specific** (surface + underground extractables).
 - Include strategic extractables such as **ores, timber, oil**, etc. that **bolster the local economy**.
 - Scarcity / localization **forces trading or exploration** (regional specialization pillar).
+- Biome-mismatched production buildings: **soft warn + allow** (placeable anywhere; poor efficiency) — see building-art-direction Decision.
 
 ### Renewable vs non-renewable
 
