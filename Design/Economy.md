@@ -12,6 +12,10 @@ A **real economy**: scarcity, production chains, labor, prices, businesses, and 
 - **Businesses** — **Player-owned only** (NPCs may work as operators/employees; they do not found shops).
 - **Prices** — Local market clearing with logistics friction; no global magic vendor as end state.
 
+## Food chain
+
+Full chain intent: crops + livestock products + forage/hunt → cooking → meals; diets and spoilage matter at maturity. First Playable keeps **Grain** simple. See `Design/Decisions/20260810_food-chain.md`.
+
 ## Regional specialization
 
 Biomes and infrastructure make some goods cheap to produce locally and expensive elsewhere. Specialization should be profitable *and* create interdependence (and leverage in diplomacy).
