@@ -45,3 +45,15 @@ Creative: no fixed early headcount (not A/B/C static squad sizes).
   2. **Recruit from other towns** — hire/attract fighters via pay, treaties, or civic deals (ties to diplomacy/trade; not free infinite spawns).
 - Early feel still matches army Decision: **few at Homestead**; larger as pop + Barracks scale — numbers are emergent, not a hardcoded 5/12/20.
 - Skirmish/wave **duration** = data-tune for controller readability; not locked to a minute count here.
+## Still open (this Decision)
+
+- Outside-claim loot delay + grave despawn duration (data-tune)
+- Exact High/Low/Null density formulas (data-tune)
+- Fight duration / wave cadence minutes (data-tune)
+
+## Locked interview answers
+
+1. Homestead → Hamlet → **C** building-gated (session-length costs)
+2. Grave loot → **D** claim-safe until self-loot/despawn; outside claim lootable
+3. Security bands → **A** High / Low / Null
+4. Army size → **pop + Barracks capacity**; train villagers or recruit from other towns
