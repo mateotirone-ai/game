@@ -21,10 +21,17 @@ Creative interview on how towns grow beyond the first shelter: who builds, layou
 - **Organic fill early** along roads/terrain.
 - **Districts later** — can preserve an **old-town** quarter with distinct character vs newer growth.
 
-### Roads
+### Roads (growth-driven + topography)
 
-- Player places **main roads**.
-- **Alleys / side paths fill in** as the town densifies.
+Roads **spawn from building placement**, following **topography** (contour-aware paths — not straight through cliffs/water). Strict rules:
+
+1. First relevant build near the hearth snaps a road **hearth/plaza → building**.  
+2. Build on the **edge of owned/buildable land** → extend from the **nearest existing road**.  
+3. Interior builds already on a road do **not** spawn new roads.  
+4. Roads **upgrade visually with town stage** (dirt → gravel → stone → paved → boulevard). Manual pave tool optional later.  
+5. Civic builds on town land use the same connect-to-nearest-road rule.
+
+**Ownership (B):** segment on a **private lot** = private drive; once it hits **town/common land** = town road (public use).
 
 ### Claims (from prior Decision)
 
@@ -53,9 +60,9 @@ A shop is a **mix**:
 
 | Phase | Building focus |
 |-------|----------------|
-| First Playable | Player places shelter + hearth; organic placement; stockpile; demolish with partial refund OK |
-| Next | Main roads; shop building type (storefront + production + operator); stockpile restock |
-| Later | Districts / old-town; alley fill; optional civic demolish rules |
+| First Playable | Player places shelter + hearth; organic placement; auto road hearth→shelter; stockpile; demolish with partial refund OK |
+| Next | Edge-build road growth; shop buildings; stockpile restock |
+| Later | Districts / old-town; road stage cosmetics; optional civic demolish rules |
 
 ## Consequences
 

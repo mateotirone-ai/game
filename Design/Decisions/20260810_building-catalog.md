@@ -95,12 +95,12 @@ Each shop tier improves: recipe speed/quality, stock capacity, operator slots, s
 
 (No thin-air coins; gold-backed.)
 
-### 7. Roads & infrastructure (placed / filled)
+### 7. Roads & infrastructure (growth-driven)
 
 | Piece | FP | Role | Notes |
 |-------|----|------|-------|
-| **Main Road** | FP greybox | Player-placed | Upgrades visually with stage (dirt → gravel → stone → paved → boulevard) |
-| **Alley / Path** | — | Auto-fill | Appears as density rises; style matches stage |
+| **Road / Drive** | FP | Auto from edge builds | Follows topography; private drive on lot → town road on common land; stage visual upgrades |
+| See | — | Rules | `20260810_town-building-expansion.md` |
 
 ### 8. Security / army (after Homestead fun)
 
