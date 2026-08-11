@@ -2,6 +2,8 @@
 
 Structural checklist for getting a first-person settler walking in the editor. Creative content still comes from you; maps must be authored in Unreal (no fake `.umap` in git).
 
+How AI and UE split work: [`AI_UE_Workflow.md`](AI_UE_Workflow.md).
+
 ## Prerequisites
 
 - Unreal Engine **5.5**
