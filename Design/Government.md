@@ -6,12 +6,14 @@ Settlements adopt **institutions**: offices, laws, taxes, and enfranchisement. D
 
 ## Government
 
-- **Charters** — Define who may vote, hold office, own civic plots.
+- Appears when **realistically necessary** (population + civ meters demand institutions) — not a pure stage checkbox.
+- **Voters:** residents / citizens of the settlement.
+- **Charters** — Define offices, civic plots, law scope (ownership fantasy starts unclear; discovered over time).
 - **Offices** — Mayor, treasurer, marshal, diplomat (names data-driven).
 - **Laws** — Tax rates, build codes, militia drafts, market rules.
 - **Democracy options** — Proposals → debate window → vote → enactment with veto/override variants.
 
-Not every settlement must be democratic; forms are unlockable / choosable tech-adjacent options with tradeoffs (speed vs legitimacy vs corruption risk).
+Not every settlement must be democratic; forms have tradeoffs (speed vs legitimacy vs corruption risk).
 
 ## Diplomacy
 

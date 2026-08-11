@@ -2,17 +2,23 @@
 
 ## Intent
 
-Conflict supports political and economic stories—defense of routes and settlements, raids, sanctioned wars—not pure deathmatch as the primary loop.
+Conflict supports political and economic stories—defense of routes and settlements, raids, sanctioned wars—not pure FPS deathmatch as the primary loop.
+
+**Timing:** real combat systems land **after** the Homestead loop is fun.
+
+## Fantasy
+
+Player is **army commander**: train and house soldiers. Fights play like **first-person Clash of Clans** (base/army from your eyes). Claim attacks require **war declaration**. Security bands (Eve-like) shape how wild the frontier is.
 
 ## Modes
 
-- **Personal / small-scale** — Wildlife, bandits, duels, raid skirmishes.
-- **Settlement defense** — Walls, militia, siege logistics.
+- **Personal / small-scale** — Wildlife, bandits, recovery runs to gravestones.
+- **Settlement defense** — Walls, trained soldiers, siege logistics.
 - **Declared war** — Diplomacy-gated; objectives beyond kill count (supplies, claims, treaty terms).
 
 ## Feel
 
-Stylized readability over simulationist military realism. Telegraphed attacks, strong silhouettes, controller-friendly targeting.
+Soft stylized readability. Controller-first. Telegraphed threats; army/base clarity over twitch arena.
 
 ## Death & phoenix
 

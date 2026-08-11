@@ -14,9 +14,16 @@ Dedicated **authoritative servers** are the target architecture. Prototype in si
 
 ## Session model (target)
 
+- **One shared persistent world** (Eve-like map fantasy) — everyone who joins is in the same world.
 - Settler characters bound to accounts (phoenix continuity across sessions).
 - Cross-session world continuity.
+- War-declare required to attack claims; Eve-like high/low security bands.
 - Optional private/dev sandboxes for designers (not the live economy).
+- See `Design/Decisions/20260810_world-systems-interview.md`.
+
+## Business boundary
+
+Buy-once product intent; **no pay-to-win** power.
 
 ## PC → console
 

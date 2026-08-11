@@ -2,7 +2,9 @@
 
 ## Intent
 
-A procedural (or semi-procedural) world with biomes, resources, and settlement sites that support **regional specialization** and long-distance logistics.
+A shared persistent world with biomes, resources, and settlement sites that support **regional specialization** and long-distance logistics.
+
+**Macro layout:** hand-authored continents, choke points, and resource belts (Eve-like readability). **Local detail:** procedural fill. First Playable uses a hand-authored plains crossroads.
 
 ## Layers
 

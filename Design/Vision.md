@@ -27,7 +27,7 @@ You are not a disposable life in a reset loop. You are a lasting agent in histor
 - Photoreal graphics
 - Full planetary MMO scale on day one
 - Offline-only single-player as the long-term architecture
-- Pay-to-win monetization of power
+- Pay-to-win monetization of power (buy-once intent)
 - Unkillable “immortal god” avatar fantasy
 
 ## Success look

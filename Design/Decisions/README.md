@@ -23,10 +23,12 @@ Record durable choices here as short markdown files:
 
 - [20260810_first-playable.md](20260810_first-playable.md) — First Playable scope (**Accepted**)
 - [20260810_phoenix-continuity.md](20260810_phoenix-continuity.md) — Phoenix language (**Accepted**)
+- [20260810_world-systems-interview.md](20260810_world-systems-interview.md) — World/systems locks (**Accepted**)
 
 ## Open questions to resolve soon
 
-- Currency minting model beyond “simple coins exist”
-- Tech research: personal vs settlement pool vs hybrid
-- How settlement failure actually plays (famine? raid stub? decay?) without combat polish
 - Exact Homestead → Hamlet numeric thresholds (data-tune later)
+- Tech research: personal vs settlement pool vs hybrid
+- Grave loot timer duration / claim rules numbers
+- Security-band thresholds for Eve-like map
+- Army sizes / CoC-like combat cadence

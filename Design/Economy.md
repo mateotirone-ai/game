@@ -18,7 +18,13 @@ Biomes and infrastructure make some goods cheap to produce locally and expensive
 
 ## Money & value
 
-Early prototype may use barter + a simple currency. Long-term: settlement minting / backed currency rules belong under Government + Economy collaboration. Avoid infinite NPC sinks that nullify player markets.
+- **One world currency** across all civilizations.
+- **Gold-backed** — never minted from thin air.
+- Coins created by converting metal at a **Mint** building.
+- Early: starter purse + selling; minting when Mint exists.
+- See `Design/Decisions/20260810_world-systems-interview.md`.
+
+Avoid infinite NPC sinks that nullify player markets.
 
 ## Authority
 
