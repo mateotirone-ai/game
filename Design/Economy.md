@@ -16,6 +16,10 @@ A **real economy**: scarcity, production chains, labor, prices, businesses, and 
 
 Full chain intent: crops + livestock products + forage/hunt → cooking → meals; diets and spoilage matter at maturity. First Playable keeps **Grain** simple. See `Design/Decisions/20260810_food-chain.md`.
 
+## Population & jobs
+
+Soft population with meters; **jobs are real** and produce for the town; workers are **visible at work**. Full home→work agent sim optional later. See `Design/Decisions/20260810_population-jobs.md`.
+
 ## Regional specialization
 
 Biomes and infrastructure make some goods cheap to produce locally and expensive elsewhere. Specialization should be profitable *and* create interdependence (and leverage in diplomacy).
