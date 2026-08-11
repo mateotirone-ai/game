@@ -45,6 +45,7 @@ Record durable choices here as short markdown files:
 - [20260810_character-customization.md](20260810_character-customization.md) — Deep creator + uniforms later (**Accepted**)
 - [20260810_lore-narrative.md](20260810_lore-narrative.md) — Heavy story; player-authored (**Accepted**)
 - [20260810_win-condition.md](20260810_win-condition.md) — Soft victories; endless world (**Accepted**)
+- [20260810_online-model.md](20260810_online-model.md) — Private worlds + optional megaworld (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon

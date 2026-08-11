@@ -14,15 +14,17 @@ Dedicated **authoritative servers** are the target architecture. Prototype in si
 
 ## Session model (target)
 
-- **One shared persistent world** (Eve-like map fantasy) — everyone who joins is in the same world.
+- **Both modes** (`Design/Decisions/20260810_online-model.md`):
+  - **Private / local (or friends) world** — solo/sandbox without forcing megaworld login.
+  - **Shared megaworld** — optional Eve-like persistent map (flagship MP fantasy).
+- Megaworld: everyone who joins that realm shares the same persistent map.
 - Players run **one capital** plus **lesser outposts** with **hard claims** to spread on the map (`Design/Decisions/20260810_capital-outposts.md`).
 - New players **frontier-spawn**: spaced from others, travel-range for trade, prefer **underused biomes** (`Design/Decisions/20260810_new-player-spawn.md`).
 - Settler characters bound to accounts (phoenix continuity across sessions).
 - Deep character customization + later town uniforms/ranks (cosmetic; no P2W) — see `Design/Decisions/20260810_character-customization.md`.
-- Cross-session world continuity.
-- War-declare required to attack claims; Eve-like high/low security bands.
-- Optional private/dev sandboxes for designers (not the live economy).
-- See `Design/Decisions/20260810_world-systems-interview.md`.
+- Cross-session world continuity (per realm).
+- War-declare required to attack claims; Eve-like high/low security bands (megaworld; private as configured).
+- See `Design/Decisions/20260810_world-systems-interview.md` for megaworld civ rules.
 
 ## Business boundary
 
