@@ -17,10 +17,14 @@ Not every settlement must be democratic; forms have tradeoffs (speed vs legitima
 
 ## Diplomacy
 
+**Mid depth** (see `Design/Decisions/20260810_diplomacy.md`):
+
 - Reputation between characters and settlements.
 - Treaties: non-aggression, transit rights, mutual defense, trade preference.
+- Embassies / diplomat office as the interface.
 - Sanctions and embargoes as first-class economic instruments.
 - Breach consequences: casus belli flags, trust collapse, NPC/AI reactions.
+- Vassals / multi-party conferences = late optional, not mid-core.
 
 ## Multiplayer integrity
 
