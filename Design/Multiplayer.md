@@ -26,6 +26,11 @@ Dedicated **authoritative servers** are the target architecture. Prototype in si
 - War-declare required to attack claims; Eve-like high/low security bands (megaworld; private as configured).
 - See `Design/Decisions/20260810_world-systems-interview.md` for megaworld civ rules.
 
+## Communication
+
+- **Global text chat**, **private messages**, and **in-game proximity voice** (`Design/Decisions/20260810_chat-social.md`).
+- Mute/block/report required; PTT-friendly for controllers.
+
 ## Business boundary
 
 Buy-once product intent; **no pay-to-win** power.
