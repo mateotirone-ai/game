@@ -26,6 +26,7 @@ Creative: **A**, clarified twice —
 - **Visibility required:** when a job is filled, players can **see a worker performing that work** at/near the workplace (animations, props, haul loops as fidelity allows). A living town, not spreadsheet-only.
 - Structural default for cost: **workplace-anchored** visible workers (and short haul loops) first; full home→work commute agent sim is a **later fidelity upgrade**, not required to satisfy “visible work.”
 - **Assignment: auto-fill (A)** — open job slots pull available labor automatically. Player shapes labor by **what they build** and town health, not by micromanaging a roster day one. (Priority/override tools can layer later without changing the default.)
+- **Farms:** player works the plot by hand early; when pop exists, farm slots auto-fill like other jobs (`20260810_irrigation-proposal.md`).
 
 ### Sequencing
 

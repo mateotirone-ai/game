@@ -35,6 +35,12 @@ Creative specified the farm/irrigation fantasy in detail (supersedes the Timberb
 - **Automatic pipe + sprinkler irrigation** that **connects to the Farm building** itself (building-tied logistics, not a free world pipe spaghetti as the first toy).
 - Further tiers can extend coverage, use less labor, or draw from cistern/well network.
 
+### Labor (**A**)
+
+- **Early / solo:** player does plow, seed, bucket-water, harvest by hand.
+- **When population exists:** farm job slots **auto-fill** (same as town jobs) — visible workers plow/water/harvest on the plot.
+- Player can still jump in; citizens don’t require roster micro.
+
 ### Fit with prior water locks
 
 - Still a **full water** pillar; hydration + haul remain.  
