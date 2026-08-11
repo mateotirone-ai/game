@@ -16,6 +16,7 @@ Dedicated **authoritative servers** are the target architecture. Prototype in si
 
 - **One shared persistent world** (Eve-like map fantasy) — everyone who joins is in the same world.
 - Players run **one capital** plus **lesser outposts** with **hard claims** to spread on the map (`Design/Decisions/20260810_capital-outposts.md`).
+- New players **frontier-spawn**: spaced from others, travel-range for trade, prefer **underused biomes** (`Design/Decisions/20260810_new-player-spawn.md`).
 - Settler characters bound to accounts (phoenix continuity across sessions).
 - Cross-session world continuity.
 - War-declare required to attack claims; Eve-like high/low security bands.
