@@ -15,6 +15,7 @@ See `Design/Decisions/20260810_town-building-expansion.md`.
 - **Districts / old-town** — Later zoning can preserve characterful early fabric vs newer growth.
 - **Claims** — Small expandable hearth plot (stage + staking).
 - **Repair & upkeep** — Tied to civ meters / decay pressure.
+- **Demolish** — Allowed; partial material refund that makes sense (not full free recycle).
 
 ## Shops
 

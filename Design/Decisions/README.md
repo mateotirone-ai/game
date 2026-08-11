@@ -24,7 +24,7 @@ Record durable choices here as short markdown files:
 - [20260810_first-playable.md](20260810_first-playable.md) — First Playable scope (**Accepted**)
 - [20260810_phoenix-continuity.md](20260810_phoenix-continuity.md) — Phoenix language (**Accepted**)
 - [20260810_world-systems-interview.md](20260810_world-systems-interview.md) — World/systems locks (**Accepted**)
-- [20260810_town-building-expansion.md](20260810_town-building-expansion.md) — Town building/shops (**Accepted**, demolish rule pending)
+- [20260810_town-building-expansion.md](20260810_town-building-expansion.md) — Town building/shops (**Accepted**)
 
 ## Open questions to resolve soon
 

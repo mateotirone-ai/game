@@ -1,6 +1,6 @@
 # Decision: Town building & expansion
 
-- Status: **Accepted** (demolish/rebuild rule pending one answer — see Open)
+- Status: **Accepted**
 - Date: 2026-08-10
 - Related: `20260810_first-playable.md`, `20260810_world-systems-interview.md`, `Design/Building.md`, `Design/Economy.md`
 
@@ -41,24 +41,22 @@ A shop is a **mix**:
 - **Inventory:** local shop stock **and** optional restock/orders from settlement stockpile.
 - Everything feeds the full civilization loop (meters, coins, jobs, trade).
 
+### Demolish / rebuild
+
+- You **can** demolish and rebuild freely as the town evolves.
+- Demolish returns **some materials that make sense** (partial refund — not 100% free recycle; damaged/consumed inputs stay gone).
+- Later politics may add friction for civic plots; baseline is player agency to reshape.
+
 ### Sequencing
 
 | Phase | Building focus |
 |-------|----------------|
-| First Playable | Player places shelter + hearth; organic placement; stockpile; no full shop sim required |
+| First Playable | Player places shelter + hearth; organic placement; stockpile; demolish with partial refund OK |
 | Next | Main roads; shop building type (storefront + production + operator); stockpile restock |
-| Later | Districts / old-town; citizen-owned shops; alley fill; zoning politics |
-
-## Open (answer next)
-
-**Demolish / rebuild policy** — awaiting creative pick:
-
-- A) Freely (material cost)  
-- B) Old-town protected / harder to erase  
-- C) Major changes need citizen vote later  
-- D) Free early; politics later  
+| Later | Districts / old-town; citizen-owned shops; alley fill; optional civic demolish rules |
 
 ## Consequences
 
 - `Design/Building.md` and `Design/Economy.md` (businesses) align to shop mix model.
 - Do not ship cosmetic-only town fill that ignores economy.
+
