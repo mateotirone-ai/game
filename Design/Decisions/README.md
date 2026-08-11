@@ -36,7 +36,7 @@ Record durable choices here as short markdown files:
 - [20260810_animals.md](20260810_animals.md) — Livestock + wildlife; frontier-varies threat (**Accepted**)
 - [20260810_water.md](20260810_water.md) — Full water + contextual hydration; irrigation parked (**Accepted**)
 - [20260810_food-chain.md](20260810_food-chain.md) — Full food chain; Village+ diets (**Accepted**)
-- [20260810_trade-caravans.md](20260810_trade-caravans.md) — Haul early, caravans later (**Accepted**)
+- [20260810_trade-caravans.md](20260810_trade-caravans.md) — Haul early; private/civic/hire caravans (**Accepted**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon
