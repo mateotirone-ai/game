@@ -31,6 +31,10 @@ Dedicated **authoritative servers** are the target architecture. Prototype in si
 - **Global text chat**, **private messages**, and **in-game proximity voice** (`Design/Decisions/20260810_chat-social.md`).
 - Mute/block/report required; PTT-friendly for controllers.
 
+## Difficulty
+
+Private worlds: **granular sliders**. Megaworld: fixed/light baseline. See `Design/Decisions/20260810_difficulty.md`.
+
 ## Business boundary
 
 Buy-once product intent; **no pay-to-win** power.
