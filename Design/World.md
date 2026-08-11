@@ -14,6 +14,7 @@ A shared persistent world with biomes, resources, and settlement sites that supp
 4. **Infrastructure** — Roads, warehouses, docks built by players/settlements.
 5. **Political map** — Settlement claims, borders, treaties overlays.
 6. **Wildlife** — Livestock (farms) + hunting/threat; intensity **frontier-varies** with security bands (see `Design/Decisions/20260810_animals.md`).
+7. **Pollution** — Industry can stress soil/water/air with real meter and farm/health effects; cleanup/tech mitigate (`Design/Decisions/20260810_pollution.md`).
 
 ## Settlement growth stages
 
