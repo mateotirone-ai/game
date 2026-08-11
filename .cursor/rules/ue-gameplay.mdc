@@ -1,0 +1,15 @@
+---
+description: UE5 gameplay code — authority, Game Features, thin module
+globs: Source/**,Plugins/**
+alwaysApply: false
+---
+
+# UE gameplay implementation
+
+- Replication-aware by default: authority simulates; clients predict cosmetics only.
+- Put domain systems in `Plugins/GameFeatures/<Domain>/`; glue only in `Source/Aevum/`.
+- Prefer Gameplay Tags, DataAssets, DataTables for tunable values.
+- Enhanced Input / CommonUI for player-facing input and UI hooks.
+- No console SDK includes, binaries, or platform-cert paths.
+- Don’t commit `Binaries/`, `Intermediate/`, or plugin build products.
+- If behavior changes a durable game rule, add/update a `Design/Decisions/` entry.

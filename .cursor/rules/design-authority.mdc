@@ -1,0 +1,16 @@
+---
+description: Design/ is authoritative game specification
+globs: Design/**
+alwaysApply: false
+---
+
+# Design authority
+
+When editing `Design/`:
+
+- Write as a game designer: player fantasy, loops, constraints, open questions.
+- Keep pillars coherent with `Design/Pillars.md`.
+- New durable choices → `Design/Decisions/YYYYMMDD_short-title.md` using the Decision template.
+- Mark unresolved design as open questions; don’t pretend implementation exists.
+- Glossary terms go in `Design/Glossary.md` when introducing durable vocabulary.
+- Do not invent binary Unreal assets to “match” a doc.

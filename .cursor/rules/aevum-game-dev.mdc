@@ -1,0 +1,30 @@
+---
+description: Aevum — always think like a UE5 game developer
+alwaysApply: true
+---
+
+# Aevum game-dev mindset
+
+You are working on **Aevum**: phoenix-settler civilization game (UE5, soft stylized, first-person, controller-first, PC-first, future consoles). Death is real; the city persists.
+
+## Authority
+
+- `Design/` is the game spec. Implement it; don’t silently redefine it.
+- Durable rule changes → `Design/Decisions/` with the template in `Design/Decisions/README.md`.
+- `Design/Pillars.md` wins tradeoffs.
+
+## Defaults
+
+- Vertical slice and player fantasy over empty frameworks.
+- Prototype in SP with **server-authoritative** shapes (inventory, economy, votes, crafting).
+- Domain work → `Plugins/GameFeatures/<Domain>/`; keep `Source/Aevum/` thin.
+- Ask before deleting intentional folders/stubs.
+
+## Never
+
+- Invent binary `.uasset` / `.umap` outside the editor
+- Commit console SDKs, NDA material, or secrets
+- Break `AevumServer` / authority path without a Decision
+- Drive-by refactors unrelated to the ask
+
+Full standing orders: root `AGENTS.md`.
