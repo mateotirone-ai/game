@@ -17,8 +17,19 @@ Creative rejected tiny deposit quotas (e.g. 20/10/10) as too fast (~2 min harves
 - Resource cost = **whatever those buildings cost** in Timber/Ore/Grain (and peers) — tune costs in data so the loop lands ~**session-length** (structural target ~20–40 min cold playtest, not ~2 min).
 - Soft meters may exist but do **not** replace the building checklist for this first stage-up.
 
+### T2 — Grave loot (**D**)
+
+- Graves **inside your claim** stay **yours** until you recover them or the grave **despawns** (despawn timer = data-tune; not free PvP loot inside safe claim).
+- Graves **outside your claim** (wild / others’ land per rules) can be looted by others — exact open-loot delay outside claim = data-tune default **immediate or short** unless later retuned.
+- Aligns with world-systems: no free instant loot inside safe claim.
+
 ## Still open (this Decision)
 
-- Grave loot timer / claim loot rules (numbers)
+- Outside-claim loot delay + grave despawn duration (data-tune)
 - Security-band thresholds
 - Army size / combat cadence numbers
+
+## Locked interview answers
+
+1. Homestead → Hamlet → **C** building-gated (session-length costs)
+2. Grave loot → **D** claim-safe until self-loot/despawn; outside claim lootable

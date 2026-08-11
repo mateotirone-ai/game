@@ -20,7 +20,7 @@ Creative direction answered the remaining open buckets in a structured interview
 
 - Gravestone contains **full carried inventory**.
 - Respawn: choose from **map of unlocked hearths**.
-- Other players may loot graves **after a timer and/or outside your claim** (not free instant loot inside safe claim).
+- Other players may loot graves **outside your claim**. Graves **inside your claim** stay yours until you recover or despawn (`20260810_numeric-thresholds.md`).
 
 ### Economy / currency
 
