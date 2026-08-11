@@ -35,3 +35,14 @@ Eve-like, **readable on the map** before travel/caravan dispatch:
 
 - Claim attacks still need **war-flag** (bands don’t replace declaration).
 - Exact radius/density formulas = data-tune; band **count and roles** are locked.
+## Still open (this Decision)
+
+- Outside-claim loot delay + grave despawn duration (data-tune)
+- Exact High/Low/Null density formulas (data-tune)
+- Army size / combat cadence numbers
+
+## Locked interview answers
+
+1. Homestead → Hamlet → **C** building-gated (session-length costs)
+2. Grave loot → **D** claim-safe until self-loot/despawn; outside claim lootable
+3. Security bands → **A** High / Low / Null
