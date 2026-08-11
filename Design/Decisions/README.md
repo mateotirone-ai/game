@@ -51,11 +51,12 @@ Record durable choices here as short markdown files:
 - [20260810_modding.md](20260810_modding.md) — Mod hooks after core ships (**Accepted**)
 - [20260810_pollution.md](20260810_pollution.md) — Real pollution + cleanup/tech (**Accepted**)
 - [20260810_alliances.md](20260810_alliances.md) — Alliance orgs parked; treaty pacts OK (**Accepted**)
+- [20260810_numeric-thresholds.md](20260810_numeric-thresholds.md) — Stage/grave/band numbers (**Partial**)
 - [20260810_land-parcels.md](20260810_land-parcels.md) — Lots vs buildings / real estate (**Accepted**)
 
 ## Open questions to resolve soon
 
-- Exact Homestead → Hamlet numeric thresholds (data-tune later)
+- ~~Exact Homestead → Hamlet~~ → building-gated (core builds + road stub); session-length costs
 - Grave loot timer duration / claim rules numbers
 - Security-band thresholds for Eve-like map
 - Army sizes / CoC-like combat cadence
