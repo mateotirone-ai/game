@@ -21,4 +21,4 @@ Trade turns local surplus into regional power: caravans, contracts, tariffs, smu
 
 ## Risk
 
-Bandits, spoilage, war zones, and poor roads create the need for escorts, better packaging tech, and diplomatic corridors.
+Bandits, spoilage, war zones, and poor roads create the need for escorts, better packaging tech, and diplomatic corridors. Baseline route risk is shown via **Eve-like security bands** on the map before dispatch.
