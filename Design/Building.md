@@ -10,9 +10,9 @@ See `Design/Decisions/20260810_town-building-expansion.md` and **stage-locked ca
 
 Building tiers track settlement stage: Homestead → Hamlet → Village → Town → City (T1–T5). Visual + functional. Cannot upgrade past current settlement stage. **Fixed pad:** T5 fits original T1 pad (grow up/density, not wider).
 
-## Regional architecture
+## Regional architecture & variants
 
-**Strong biome architecture** (adobe, alpine, forest timber, plains, etc.) on the **same pad and function family**. See `Design/Decisions/20260810_building-art-direction.md`.
+**Strong biome architecture** on the same pad/function. **No building has only one variation** — minimum 3 base variants (A/B/C) plus region + stage. See `Design/Decisions/20260810_building-art-direction.md`.
 
 ## Principles
 

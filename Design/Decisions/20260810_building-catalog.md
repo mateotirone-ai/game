@@ -171,6 +171,6 @@ Everything else is post-slice.
 
 ## Consequences
 
-- Art pipeline: **5 visual tiers** per family that reaches City (or fewer if building unlocks late).
-- Data: `DT_Buildings` + stage gates + upgrade costs + lot type flags (private vs civic).
-- UI: upgrade prompt when settlement stages and resources allow.
+- Art pipeline: **5 stage tiers** × **≥3 base variants** × regional kits per family (see building-art-direction).
+- Data: `DT_Buildings` + stage gates + upgrade costs + lot type flags + variant IDs.
+- UI: upgrade prompt when settlement stages and resources allow; placement can randomize/pick variant.
