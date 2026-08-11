@@ -12,6 +12,7 @@ You are not a disposable life in a reset loop. You are a lasting agent in histor
 - **Civilization from the ground up** — Start with survival and shelter; end with specialized districts, institutions, and regional power.
 - **Real economics** — Goods have costs, scarcity, logistics, and opportunity cost—not abstract victory points alone.
 - **Social systems as gameplay** — Democracy, diplomacy, businesses, and cooperation are first-class, not flavor text.
+- **Your storyline** — Heavy narrative feel via chronicles and diegetic history; **you create the campaign** through play, not a fixed main quest.
 - **Stylized clarity** — Soft stylized readability, strong color language, and controller-first UI over photoreal grit.
 
 ## Platforms
