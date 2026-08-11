@@ -41,12 +41,27 @@ Rule: when the settlement stages up, eligible buildings can be upgraded to that 
 
 ### 1. Shelter / Housing
 
+Player home + richer **NPC housing variation** (town fill / assignable lots). Same stage spine + fixed pad + regional architecture. Housing types are different *families* (different silhouettes/roles), each with T1–T5.
+
 | Building | FP | Role | T1 Homestead | T2 Hamlet | T3 Village | T4 Town | T5 City |
 |----------|----|------|--------------|-----------|------------|---------|---------|
-| **Settler Shelter** | FP | Your first roof | Lean-to / cabin (sets lot size) | Same footprint, finished cottage | Same lot, finer home / taller | Same lot, dense estate look | Same lot, manor vertical massing |
-| **Housing** (town fill) | — | Citizen homes | Tent/hut | Cottage | Row house | Apartment block | Urban housing |
+| **Settler Shelter** | FP | Your first roof | Lean-to / cabin | Finished cottage | Fine home | Dense estate look | Manor massing |
+| **Hut / Starter Dwelling** | — | Poorest / newest arrivals | Tent / brush hut | Mud/timber hut | Small cabin | Improved cabin | Modest cottage |
+| **Cottage** | — | Standard family home | Rough cottage | Settled cottage | Trim cottage | Fine cottage | Town cottage |
+| **Longhouse / Shared House** | — | Multi-family / boarding | Shared lean | Longhouse | Boarding house | Tenement wing | Urban shared hall |
+| **Row House** | — | Dense street housing | Proto-row shed | Paired cottages | Row house | Fine row | City terrace |
+| **Apartment / Stacked Home** | — | Vertical density (later stages) | — | — | Stacked loft | Walk-up flat | City apartment |
+| **Craftsman Home** | — | Live-work (home + tiny bench; not a full shop) | Work lean | Craft cottage | Live-work home | Guild dwelling | Master residence |
+| **Merchant House** | — | Wealthier citizen home | — | Trader cabin | Merchant house | Fine merchant | Patrician house |
+| **Estate Annex** | — | Large household / servants stub | — | — | Side annex | Estate house | Compound wing |
 
-Player places landmarks; town can auto-fill Housing per town-building Decision.
+**Variation drivers (data, not infinite IDs):**
+- Housing **family** (table above)
+- **Regional architecture** kit (biome)
+- **Stage tier** T1–T5
+- Optional **palette / wealth tint** (poor → comfortable → wealthy) within family
+
+Town auto-fill picks from Hut/Cottage/Longhouse/Row/etc. by stage + population wealth — not one generic “Housing” mesh.
 
 ### 2. Civic / Hearth
 
@@ -132,6 +147,12 @@ Must exist and upgrade at least **T1 → T2** with Homestead → Hamlet:
 7. Era Marker (light)
 
 Everything else is post-slice.
+
+## Counts (approx)
+
+- **Core non-housing families:** ~22 (shelter player home counted once + civic/gather/shop/security/etc.)  
+- **Housing families:** **9** (Settler Shelter + 8 NPC/citizen variants)  
+- **Total building families:** ~**30** (was ~24 before housing split)
 
 ## Open for creative redline
 
