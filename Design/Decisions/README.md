@@ -59,3 +59,4 @@ Record durable choices here as short markdown files:
 - Grave loot timer duration / claim rules numbers
 - Security-band thresholds for Eve-like map
 - Army sizes / CoC-like combat cadence
+- Irrigation depth un-park (steal-from-games) before mid farms

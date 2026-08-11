@@ -21,7 +21,7 @@ Diplomacy is a **real mid-weight system**, not thin war-flag-only and not day-on
 
 ### Explicitly later / not mid-core
 
-Deep options (multi-party conferences, vassalage, full charter-foreign entanglement) stay **aspirational / late** — do not block mid diplomacy shipping. Can revisit as a Decision when Town/City politics need them.
+Deep options (multi-party conferences, vassalage, full charter-foreign entanglement) stay **later aspirational (creative: maybe later)** — do not block mid diplomacy shipping. Un-park only with a new Decision when Town/City politics need them.
 
 ### Sequencing
 
@@ -30,7 +30,7 @@ Deep options (multi-party conferences, vassalage, full charter-foreign entanglem
 | First Playable | None |
 | Next | War-flag + basic peace / hostility state |
 | Mid | Treaties, embassy, embargo/tariff tools |
-| Later | Optional deep layer (conferences, vassals) if still desired |
+| Later | Optional deep layer (conferences, vassals) — aspirational, not scheduled |
 
 ### Authority
 
@@ -40,3 +40,4 @@ Treaty offer/accept/breach, embargo effects, and war declarations are **server-a
 
 1. Depth → **B mid** (treaties, embassies, embargoes)
 2. Signatories → **C charter-configurable**
+3. Vassals / conferences → **later aspirational** (maybe later; not dropped, not promoted)
