@@ -18,6 +18,17 @@ Minecraft-aspect gather/build systems, tied to regional economy and trade pressu
 - Include strategic extractables such as **ores, timber, oil**, etc. that **bolster the local economy**.
 - Scarcity / localization **forces trading or exploration** (regional specialization pillar).
 
+### Renewable vs non-renewable
+
+| Class | Examples | Rule |
+|-------|----------|------|
+| Renewable | Timber, Grain/crops, forage (optional), livestock products (later) | Regrow / restock with time or management |
+| Slow-renewable | **Stone** / aggregate | Effectively available long-term but **slow** — do not let the map become a permanent scarred wasteland (anti-2b2t) |
+| Non-renewable / depletable | Ore ladder, **Gold**, **Oil**, strategic minerals | Local nodes/fields deplete or move pressure to trade/explore |
+| Processed | Planks, ingots, fuel, coins, food products | Made in workstations/shops/mint |
+
+World presentation: harvesting may temporarily alter looks, but terrain/resource systems prefer **recovery / restock** over irreversible map ruin.
+
 ### Tools
 
 - Tools can be **upgraded and repaired**.
