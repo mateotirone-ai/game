@@ -15,7 +15,7 @@ Player is **army commander**: train and house soldiers. Fights play like **first
 ## Modes
 
 - **Personal / small-scale** — Wildlife (harsher on frontiers), bandits, recovery runs to gravestones.
-- **Settlement defense** — Walls, trained soldiers, siege logistics.
+- **Settlement defense** — Walls, trained soldiers, siege logistics. Militia assignable to garrison/outpost/escort; hireable guards as alternative.
 - **Declared war** — Diplomacy-gated; objectives beyond kill count (supplies, claims, treaty terms).
 
 ## Feel

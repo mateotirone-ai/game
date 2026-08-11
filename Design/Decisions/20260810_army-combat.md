@@ -1,6 +1,6 @@
 # Decision: Army & Combat Systems
 
-- Status: **Accepted** (early A+C; mid/late B+C locked)
+- Status: **Accepted**
 - Date: 2026-08-10
 - Related: Combat, Building (Barracks), Diplomacy, Multiplayer, first-playable sequencing
 
@@ -33,6 +33,14 @@ Creative chose **A + C** for early army composition / feel.
 | Mid | Escorts for caravans; simple attack/defend under war-flag |
 | Later | Larger armies, siege logistics, gated offensive deploy/orders |
 
+### Unit assignment (**C** hybrid)
+
+- **Core militia pool** from Barracks — assign to **garrison**, **outposts**, or **escorts**.
+- **Hireable escorts/guards** also exist (pay for temporary protection without pulling every defender off the walls) — same spirit as hireable caravan carriers.
+- Pulling militia to escort **weakens home defense** (readable tradeoff). Hiring costs coin/contracts instead.
+
+Army **size caps** scale with stage / tech / Barracks upgrades (data-tune; not a creative fork).
+
 ### Authority
 
 Unit spawns, damage, capture, and war-flag gates are **server-authoritative**. Client predicts cosmetics only.
@@ -41,8 +49,4 @@ Unit spawns, damage, capture, and war-flag gates are **server-authoritative**. C
 
 1. Early army → **A+C** (you + few militia; base-defense AI, light FP command)
 2. Mid/late → **B+C** (defense stays light; attacks unlock CoC-style deploy/orders)
-
-## Open questions
-
-1. Army size caps by stage/tech/Barracks upgrades?
-2. Can militia garrison outposts / escort caravans as the same unit pool?
+3. Assignment → **C** hybrid (militia pool + hireable escorts)
