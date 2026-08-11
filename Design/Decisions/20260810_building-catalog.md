@@ -140,8 +140,16 @@ Everything else is post-slice.
 3. Any family that should **not** upgrade every stage (cap early)?  
 4. Accept as **Accepted** or request edits?
 
+## Land placement (see land-parcels Decision)
+
+| On private lots | On town / common land |
+|-----------------|------------------------|
+| Settler Shelter / housing you own | Hearth, Town Hall, civic Mint |
+| Player-owned shops / workshops | Stockpile / Warehouse (settlement) |
+| | Barracks, walls, roads, plazas, era markers |
+
 ## Consequences
 
 - Art pipeline: **5 visual tiers** per family that reaches City (or fewer if building unlocks late).
-- Data: `DT_Buildings` + stage gates + upgrade costs.
+- Data: `DT_Buildings` + stage gates + upgrade costs + lot type flags (private vs civic).
 - UI: upgrade prompt when settlement stages and resources allow.

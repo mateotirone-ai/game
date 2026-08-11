@@ -15,10 +15,16 @@ Creative direction separated **land ownership** from **buildings**. Lots can gro
 1. **Parcel / lot** — ownable land (buy, sell). Holding grows by **buying adjacent lots**, not magically stretching one parcel.  
 2. **Building** — placed on a lot you own; upgrades along town stage; **building pad footprint** stays stable within its lot (taller/denser). Multi-lot estates = multiple parcels owned next to each other.
 
+### What private lots are for
+
+- A private lot is only for **your home** and **your businesses** (player-owned shops/workshops on your parcels).
+- **Civic / settlement buildings** (hearth, town warehouse, barracks, roads, plazas, mint-as-civic, etc.) sit on **town / common land**, not on personal lots.
+- Citizens likewise use their lots for their home + their businesses.
+
 ### Homestead start
 
-- You claim **one starter lot**.  
-- Other town lots appear as inhabitants arrive / town parcels.
+- You claim **one starter lot** (home + future personal businesses).  
+- Other private lots appear as inhabitants arrive; civic parcels are town-owned.
 
 ### Cross-town / foreign buyers
 
