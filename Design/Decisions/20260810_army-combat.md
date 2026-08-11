@@ -1,6 +1,6 @@
 # Decision: Army & Combat Systems
 
-- Status: **Accepted** (early army shape locked A+C; mid/late micro still open)
+- Status: **Accepted** (early A+C; mid/late B+C locked)
 - Date: 2026-08-10
 - Related: Combat, Building (Barracks), Diplomacy, Multiplayer, first-playable sequencing
 
@@ -18,7 +18,11 @@ Creative chose **A + C** for early army composition / feel.
 - **Play feel:** **mostly base-defense AI** — walls, stationed militia, telegraphed threats. You fight and **light-command from first person**; you do **not** constantly micro every unit like full CoC early.
 - CoC kinship = readable base + army presence from your eyes, not mandatory RTS finger-dance on gamepad.
 
-Full squad place/direct micro (prior option B) is **not** the early default; may unlock later if creative wants escalation.
+### Mid / late command (**B + C**)
+
+- **Defense stays AI-light** — garrison, walls, telegraphed holds; no mandatory RTS micro while defending home.
+- **Attacks unlock deeper CoC-style deploy/orders** later (tech / settlement stage gate): place/direct squads for offensive ops under war-flag.
+- Early play remains A+C; depth is an unlock, not day-one burden.
 
 ### Sequencing
 
@@ -27,7 +31,7 @@ Full squad place/direct micro (prior option B) is **not** the early default; may
 | First Playable | No army systems (personal wildlife stub OK) |
 | After Homestead fun | Barracks → small militia; defense AI + FP presence |
 | Mid | Escorts for caravans; simple attack/defend under war-flag |
-| Later | Larger armies, siege logistics, optional deeper command if locked |
+| Later | Larger armies, siege logistics, gated offensive deploy/orders |
 
 ### Authority
 
@@ -36,9 +40,9 @@ Unit spawns, damage, capture, and war-flag gates are **server-authoritative**. C
 ## Locked interview answers
 
 1. Early army → **A+C** (you + few militia; base-defense AI, light FP command)
+2. Mid/late → **B+C** (defense stays light; attacks unlock CoC-style deploy/orders)
 
 ## Open questions
 
-1. Does mid/late add CoC-style deploy/micro, or stay light-command forever?
-2. Army size caps by stage/tech/Barracks upgrades?
-3. Can militia garrison outposts / escort caravans as the same unit pool?
+1. Army size caps by stage/tech/Barracks upgrades?
+2. Can militia garrison outposts / escort caravans as the same unit pool?
