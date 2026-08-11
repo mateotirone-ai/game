@@ -23,7 +23,7 @@ Dedicated **authoritative servers** are the target architecture. Prototype in si
 - Settler characters bound to accounts (phoenix continuity across sessions).
 - Deep character customization + later town uniforms/ranks (cosmetic; no P2W) — see `Design/Decisions/20260810_character-customization.md`.
 - Cross-session world continuity (per realm).
-- War-declare required to attack claims; Eve-like high/low security bands (megaworld; private as configured).
+- War-declare required to attack claims; Eve-like **High / Low / Null** security bands (`20260810_numeric-thresholds.md`).
 - See `Design/Decisions/20260810_world-systems-interview.md` for megaworld civ rules.
 
 ## Communication

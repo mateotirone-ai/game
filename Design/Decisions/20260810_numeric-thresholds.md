@@ -23,13 +23,15 @@ Creative rejected tiny deposit quotas (e.g. 20/10/10) as too fast (~2 min harves
 - Graves **outside your claim** (wild / others’ land per rules) can be looted by others — exact open-loot delay outside claim = data-tune default **immediate or short** unless later retuned.
 - Aligns with world-systems: no free instant loot inside safe claim.
 
-## Still open (this Decision)
+### T3 — Security bands (**A** — three bands)
 
-- Outside-claim loot delay + grave despawn duration (data-tune)
-- Security-band thresholds
-- Army size / combat cadence numbers
+Eve-like, **readable on the map** before travel/caravan dispatch:
 
-## Locked interview answers
+| Band | Feel | Baseline |
+|------|------|----------|
+| **High** | Dense town / strong civ | Little wild PvP; calm wildlife; safer roads |
+| **Low** | Frontier / sparse | Open ambush/theft outside claims; meaner wildlife; caravan risk |
+| **Null** | Deep wild | Free-for-all; richest nodes; highest trip risk |
 
-1. Homestead → Hamlet → **C** building-gated (session-length costs)
-2. Grave loot → **D** claim-safe until self-loot/despawn; outside claim lootable
+- Claim attacks still need **war-flag** (bands don’t replace declaration).
+- Exact radius/density formulas = data-tune; band **count and roles** are locked.

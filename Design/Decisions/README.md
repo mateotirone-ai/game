@@ -58,6 +58,6 @@ Record durable choices here as short markdown files:
 
 - ~~Exact Homestead → Hamlet~~ → building-gated (core builds + road stub); session-length costs
 - ~~Grave loot timer / claim rules~~ → **D** claim-safe; outside lootable (despawn/delay data-tune)
-- Security-band thresholds for Eve-like map
+- ~~Security-band thresholds~~ → **A** High / Low / Null (density formulas data-tune)
 - Army sizes / CoC-like combat cadence
 - Irrigation depth un-park (steal-from-games) before mid farms
