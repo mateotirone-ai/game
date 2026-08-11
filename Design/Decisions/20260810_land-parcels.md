@@ -21,6 +21,13 @@ Creative direction separated **land ownership** from **buildings**. Lots can gro
 - **Civic / settlement buildings** (hearth, town warehouse, barracks, roads, plazas, mint-as-civic, etc.) sit on **town / common land**, not on personal lots.
 - Citizens likewise use their lots for their home + their businesses.
 
+### Building vs buying land
+
+- The player does **not** have to buy a parcel to place a building.
+- **Placing/upgrading buildings** is gated by materials, stage, and build rights — not a per-building land purchase.
+- **Buying parcels** is optional expansion / real-estate (adjacent lots, foreign town lots) for more private space or investment — not a toll on every structure.
+- Homestead starter lot is **claimed**, not purchased.
+
 ### Homestead start
 
 - You claim **one starter lot** (home + future personal businesses).  
