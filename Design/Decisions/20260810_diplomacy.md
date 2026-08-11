@@ -17,6 +17,7 @@ Diplomacy is a **real mid-weight system**, not thin war-flag-only and not day-on
 - **Embargoes / sanctions / tariffs** as first-class economic instruments.
 - **War-flag** remains the gate for claim attacks (already locked).
 - **Reputation** between characters and settlements matters for trust and breach fallout.
+- **Who may bind the town** is **charter-configurable (C)** — each settlement’s charter defines which office(s) or vote threshold can offer/accept treaties. Defaults can suggest Mayor/Diplomat; towns may rewrite within legal bounds.
 
 ### Explicitly later / not mid-core
 
@@ -38,3 +39,4 @@ Treaty offer/accept/breach, embargo effects, and war declarations are **server-a
 ## Locked interview answers
 
 1. Depth → **B mid** (treaties, embassies, embargoes)
+2. Signatories → **C charter-configurable**

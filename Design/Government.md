@@ -22,6 +22,7 @@ Not every settlement must be democratic; forms have tradeoffs (speed vs legitima
 - Reputation between characters and settlements.
 - Treaties: non-aggression, transit rights, mutual defense, trade preference.
 - Embassies / diplomat office as the interface.
+- Treaty signers are **charter-configurable** (default lean: mayor/diplomat).
 - Sanctions and embargoes as first-class economic instruments.
 - Breach consequences: casus belli flags, trust collapse, NPC/AI reactions.
 - Vassals / multi-party conferences = late optional, not mid-core.
