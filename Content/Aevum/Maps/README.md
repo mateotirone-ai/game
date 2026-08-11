@@ -8,7 +8,7 @@ Levels and World Partition maps (prefix `L_`).
 
 Plains crossroads sandbox for the Accepted First Playable Decision.
 
-### Author in UE 5.5 (required before meaningful PIE)
+### Author in UE 5.8 (required before meaningful PIE)
 
 1. Open `Aevum.uproject` (compile the `Aevum` module if prompted).
 2. **File → New Level → Empty Open World** (or Basic, then enable World Partition later).

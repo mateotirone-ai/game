@@ -6,7 +6,7 @@ How AI and UE split work: [`AI_UE_Workflow.md`](AI_UE_Workflow.md).
 
 ## Prerequisites
 
-- Unreal Engine **5.5**
+- Unreal Engine **5.8**
 - Git LFS (`git lfs install` && `git lfs pull`)
 - Windows: VS 2022 with C++ game workload  
   macOS: Xcode (if targeting Mac editor builds)

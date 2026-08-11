@@ -31,7 +31,7 @@ Durable rules stay in `Design/`. Engineering notes stay here. Standing orders: r
 
 1. **Design first** — lock intent in `Design/` (or a Decision).
 2. **Code in repo** — AI implements authority-shaped systems; you review diffs.
-3. **You open UE 5.5** — compile `Aevum`, author/update content (start: `L_DevSandbox`).
+3. **You open UE 5.8** — compile `Aevum`, author/update content (start: `L_DevSandbox`).
 4. **PIE playtest** — human feel check; report what broke or felt wrong.
 5. **Iterate** — AI fixes code/docs; content stays editor-authored.
 

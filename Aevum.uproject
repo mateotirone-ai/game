@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.5",
+	"EngineAssociation": "5.8",
 	"Category": "Games",
 	"Description": "Persistent multiplayer civilization game through a phoenix settler (death is real; the city endures). PC-first; Xbox Series and PlayStation 5 targets planned.",
 	"Modules": [

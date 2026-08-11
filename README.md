@@ -12,7 +12,7 @@ Game specification lives in [`Design/`](Design/). Implementation follows those d
 
 | Path | Purpose |
 |------|---------|
-| `Aevum.uproject` | Unreal project file (Engine **5.5**) |
+| `Aevum.uproject` | Unreal project file (Engine **5.8**) |
 | `Config/` | Committed default ini configuration |
 | `Content/Aevum/` | Game content (authored in-editor; see naming conventions) |
 | `Source/` | C++ module + Game / Editor / Server targets |
@@ -27,7 +27,7 @@ Game specification lives in [`Design/`](Design/). Implementation follows those d
 
 ## Prerequisites
 
-- Unreal Engine **5.5** (or update `EngineAssociation` deliberately)
+- Unreal Engine **5.8** (or update `EngineAssociation` deliberately)
 - Git + **Git LFS** (`git lfs install`)
 - Visual Studio 2022 (Windows) or corresponding toolchain per platform
 - Do **not** clone console SDKs into this tree
@@ -39,7 +39,7 @@ git clone <repo-url>
 cd game-main
 git lfs install
 git lfs pull
-# Open Aevum.uproject in UE 5.5, then author L_DevSandbox (see below)
+# Open Aevum.uproject in UE 5.8, then author L_DevSandbox (see below)
 ```
 
 First editor session: [`Documentation/UE_Boot.md`](Documentation/UE_Boot.md) + [`Content/Aevum/Maps/README.md`](Content/Aevum/Maps/README.md).
